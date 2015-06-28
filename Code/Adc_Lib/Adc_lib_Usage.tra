@@ -1,0 +1,25 @@
+*** Creating Trace Output File 'Adc_lib_Usage.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"startup_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "adc.o" "delay.o" "gpio.o" "lcd.o" "main.o" "system_lpc17xx.o" "startup_lpc17xx.o" --strict --scatter "Adc_lib_Usage.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Adc_lib_Usage.map" -o "Adc_lib_Usage.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Adc_lib_Usage.axf'
+### ADS-LD Command File: 'Adc_lib_Usage.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Adc_lib_Usage.lnp', Handle=0x000001B4
+### Writing '.lnp' file
+### ADS-LD Command file 'Adc_lib_Usage.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
