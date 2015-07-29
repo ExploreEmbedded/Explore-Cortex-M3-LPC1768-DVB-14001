@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="135mm"
+   height="55mm"
+   viewBox="0 0 478.34646 194.88189"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="LPC1768_pcb.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview489"
+     showgrid="false"
+     inkscape:zoom="1.3295802"
+     inkscape:cx="194.5558"
+     inkscape:cy="95.952228"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient62215"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#0a0707;stop-opacity:1;"
+         offset="0"
+         id="stop62217" />
+      <stop
+         style="stop-color:#0a0707;stop-opacity:0;"
+         offset="1"
+         id="stop62219" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient52236"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#c62717;stop-opacity:1;"
+         offset="0"
+         id="stop52238" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4170"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#e62c2e;stop-opacity:1;"
+         offset="0"
+         id="stop4172" />
+    </linearGradient>
+    <clipPath
+       id="id0">
+      <path
+         id="path64797"
+         d="m 4.16933,0.999201 0.294039,0 0,-0.321488 -0.294039,0 0,0.321488 z" />
+    </clipPath>
+    <clipPath
+       id="id1">
+      <path
+         id="path64800"
+         d="m 4.16248,1.58825 0.294039,0 0,-0.321488 -0.294039,0 0,0.321488 z" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(0.0090017,0,0,0.00882781,100.55844,-683.62174)"
+     id="g5634"
+     style="fill:#e62c2e;fill-opacity:0.90196078;stroke:#000000;stroke-width:1.00960946;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+  <g
+     transform="matrix(0.0090017,0,0,0.00882781,100.55844,-683.62174)"
+     id="g27644"
+     style="fill:#e62c2e;fill-opacity:0.90196078;stroke:#000000;stroke-width:59.62258148;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+  <g
+     transform="matrix(1.25,0,0,1.25,222.80537,-494.50064)"
+     id="g51469"
+     style="stroke-width:0">
+    <title
+       id="title51471">text:3.3V</title>
+  </g>
+  <g
+     transform="matrix(1.25,0,0,1.25,283.16251,-542.71493)"
+     id="g51647"
+     style="stroke-width:0">
+    <title
+       id="title51649">element:U$1</title>
+    <g
+       id="g51651"
+       style="stroke-width:0">
+      <title
+         id="title51653">package:FIDUCIAL-1X2</title>
+    </g>
+  </g>
+  <g
+     transform="matrix(1.25,0,0,1.25,283.16251,-542.71493)"
+     id="g51655"
+     style="stroke-width:0">
+    <title
+       id="title51657">element:U$2</title>
+    <g
+       id="g51659"
+       style="stroke-width:0">
+      <title
+         id="title51661">package:SFE-NEW-WEBLOGO</title>
+    </g>
+  </g>
+  <g
+     transform="matrix(1.25,0,0,1.25,283.16251,-542.71493)"
+     id="g51663"
+     style="stroke-width:0">
+    <title
+       id="title51665">element:U$3</title>
+    <g
+       id="g51667"
+       style="stroke-width:0">
+      <title
+         id="title51669">package:FIDUCIAL-1X2</title>
+    </g>
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66654"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66656" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66658"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66660" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66662"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66664" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66666"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66668" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66670"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66672" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66674"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66676" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66678"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66680" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66682"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66684" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66686"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66688" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66690"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66692" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66694"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66696" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66698"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66700" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66702"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66704" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66706"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66708" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66710"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66712" />
+  </g>
+  <g
+     transform="matrix(90,0,0,90,2.8614736,1.02463)"
+     id="g66714"
+     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <g
+       id="g66716" />
+  </g>
+  <g
+     id="g80231-2-6-4"
+     transform="translate(35.985776,-856.48225)" />
+  <g
+     id="g5152">
+    <g
+       transform="translate(45.879141,-2.2563512)"
+       id="copper1">
+      <g
+         id="copper0">
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector40pad"
+           cx="33.511738"
+           cy="170.71498"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector39pad"
+           cx="43.195717"
+           cy="170.80521"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector38pad"
+           cx="52.33931"
+           cy="170.97495"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector37pad"
+           cx="61.383507"
+           cy="171.04688"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector36pad"
+           cx="70.339249"
+           cy="171.08163"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector35pad"
+           cx="79.047272"
+           cy="171.23404"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector34pad"
+           cx="88.075127"
+           cy="171.19147"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector33pad"
+           cx="97.296104"
+           cy="171.21921"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector32pad"
+           cx="106.38112"
+           cy="171.16321"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector31pad"
+           cx="115.33694"
+           cy="171.19092"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector30pad"
+           cx="124.10384"
+           cy="171.20219"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector29pad"
+           cx="132.52931"
+           cy="171.22993"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector28pad"
+           cx="142.4263"
+           cy="171.37973"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector27pad"
+           cx="151.51469"
+           cy="171.31908"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector26pad"
+           cx="159.88387"
+           cy="171.28615"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector25pad"
+           cx="169.06064"
+           cy="171.18129"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector24pad"
+           cx="177.83722"
+           cy="171.1572"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector23pad"
+           cx="186.26268"
+           cy="171.2733"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector22pad"
+           cx="196.04607"
+           cy="171.19617"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector21pad"
+           cx="204.86929"
+           cy="171.09132"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector20pad"
+           cx="214.45691"
+           cy="171.15276"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector19pad"
+           cx="222.88242"
+           cy="171.18047"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector18pad"
+           cx="232.13544"
+           cy="171.23593"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector17pad"
+           cx="241.17964"
+           cy="171.13109"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector16pad"
+           cx="249.86691"
+           cy="171.20766"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector15pad"
+           cx="258.73434"
+           cy="171.19119"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector14pad"
+           cx="268.91547"
+           cy="171.20245"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector13pad"
+           cx="277.47351"
+           cy="171.2081"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector12pad"
+           cx="285.82233"
+           cy="171.20018"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector11pad"
+           cx="294.93195"
+           cy="171.21664"
+           r="1.3609843" />
+        <circle
+           inkscape:label="#connector10pad"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector10pad"
+           cx="303.56851"
+           cy="171.19801"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector09pad"
+           cx="312.96646"
+           cy="171.2941"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector08pad"
+           cx="322.01785"
+           cy="171.2168"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector07pad"
+           cx="331.08392"
+           cy="171.18295"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector06pad"
+           cx="340.08832"
+           cy="171.19089"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector05pad"
+           cx="349.07101"
+           cy="171.11148"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector04pad"
+           cx="358.20206"
+           cy="171.25435"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector03pad"
+           cx="367.30301"
+           cy="171.11093"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector02pad"
+           cx="375.94009"
+           cy="171.22705"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector01pad"
+           cx="384.94598"
+           cy="171.26773"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector80pad"
+           cx="33.485958"
+           cy="26.31418"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector79pad"
+           cx="43.169933"
+           cy="26.404406"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector78pad"
+           cx="52.313534"
+           cy="26.574144"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector77pad"
+           cx="61.357738"
+           cy="26.646074"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector76pad"
+           cx="70.313469"
+           cy="26.680834"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector75pad"
+           cx="79.021492"
+           cy="26.833239"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector74pad"
+           cx="88.049362"
+           cy="26.790667"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector73pad"
+           cx="97.27034"
+           cy="26.818407"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector72pad"
+           cx="106.35536"
+           cy="26.762407"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector71pad"
+           cx="115.31117"
+           cy="26.790117"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector70pad"
+           cx="124.07808"
+           cy="26.801394"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector69pad"
+           cx="132.50356"
+           cy="26.829134"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector68pad"
+           cx="142.40053"
+           cy="26.97893"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector67pad"
+           cx="151.48894"
+           cy="26.918276"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector66pad"
+           cx="159.85811"
+           cy="26.885347"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector65pad"
+           cx="169.03487"
+           cy="26.780489"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector64pad"
+           cx="177.81145"
+           cy="26.756395"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector63pad"
+           cx="186.23692"
+           cy="26.872499"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector62pad"
+           cx="196.02031"
+           cy="26.795366"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector61pad"
+           cx="204.84352"
+           cy="26.690523"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector60pad"
+           cx="214.43114"
+           cy="26.751955"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector59pad"
+           cx="222.85663"
+           cy="26.779665"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector58pad"
+           cx="232.10965"
+           cy="26.835131"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector57pad"
+           cx="241.15387"
+           cy="26.730288"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector56pad"
+           cx="249.84113"
+           cy="26.806856"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector55pad"
+           cx="258.70856"
+           cy="26.790392"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector54pad"
+           cx="268.88968"
+           cy="26.801653"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector53pad"
+           cx="277.44772"
+           cy="26.807299"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector52pad"
+           cx="285.79654"
+           cy="26.799379"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector51pad"
+           cx="294.90616"
+           cy="26.815844"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector50pad"
+           cx="303.54272"
+           cy="26.797213"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector49pad"
+           cx="312.94067"
+           cy="26.893297"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector48pad"
+           cx="321.99207"
+           cy="26.815996"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector47pad"
+           cx="331.05814"
+           cy="26.782152"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector46pad"
+           cx="340.06253"
+           cy="26.790087"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector45pad"
+           cx="349.04526"
+           cy="26.71068"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector44pad"
+           cx="358.1763"
+           cy="26.853548"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector43pad"
+           cx="367.27725"
+           cy="26.710131"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector42pad"
+           cx="375.91434"
+           cy="26.82625"
+           r="1.3609843" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffbf00;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector41pad"
+           cx="384.9202"
+           cy="26.86693"
+           r="1.3609843" />
+      </g>
+    </g>
+    <rect
+       ry="0.31567299"
+       rx="0.31567299"
+       y="11.365325"
+       x="60.921482"
+       height="166.21786"
+       width="393.35724"
+       id="rect5150"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.52999997;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

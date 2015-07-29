@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="20mm"
+   height="15mm"
+   viewBox="0 0 70.866141 53.149609"
+   id="svg2"
+   version="1.1">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="0"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#c62717;stop-opacity:1;"
+         offset="0"
+         id="stop6637" />
+    </linearGradient>
+    <linearGradient
+       id="0-9"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop6577" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <flowRoot
+     transform="translate(0,-999.21259)"
+     style="font-style:normal;font-weight:normal;font-size:5px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="flowRoot7334"
+     xml:space="preserve"><flowRegion
+       id="flowRegion7336"><rect
+         y="3.328176"
+         x="60.357143"
+         height="5.3571429"
+         width="1.6071428"
+         id="rect7338" /></flowRegion><flowPara
+       id="flowPara7340" /></flowRoot>  <g
+     transform="translate(-0.90084094,-4.8033399e-8)"
+     id="g5654">
+    <g
+       id="copper1">
+      <g
+         id="copper0">
+        <ellipse
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#f7bd13;stroke-width:1.53000009;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector01pad"
+           cx="18.759926"
+           cy="8.1501017"
+           rx="2.8925004"
+           ry="2.8925002" />
+        <ellipse
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#f7bd13;stroke-width:1.53000009;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector02pad"
+           cx="18.580872"
+           cy="19.755163"
+           rx="2.8925006"
+           ry="2.8925004" />
+        <ellipse
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#f7bd13;stroke-width:1.53000009;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector03pad"
+           cx="18.889942"
+           cy="31.10498"
+           rx="2.8925009"
+           ry="2.8925006" />
+        <ellipse
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#f7bd13;stroke-width:1.53000009;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="connector04pad"
+           cx="19.199011"
+           cy="42.295544"
+           rx="2.8925009"
+           ry="2.8925006" />
+      </g>
+    </g>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.52999997;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5105"
+       width="59.518291"
+       height="45.219162"
+       x="6.3705688"
+       y="3.1445234"
+       rx="0.31567299"
+       ry="0.31567302" />
+  </g>
+  <g
+     transform="matrix(1.2500001,0,0,1.2500001,-68.434685,-6.2764589)"
+     style="stroke-width:0"
+     id="g4259">
+    <title
+       id="title4261">element:U$2</title>
+    <g
+       style="stroke-width:0"
+       id="g4263">
+      <title
+         id="title4265">package:SFE-NEW-WEBLOGO</title>
+    </g>
+  </g>
+</svg>
