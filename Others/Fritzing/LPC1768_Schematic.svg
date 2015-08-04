@@ -29,8 +29,8 @@
      id="namedview707"
      showgrid="false"
      inkscape:zoom="1.8101934"
-     inkscape:cx="171.08182"
-     inkscape:cy="102.15935"
+     inkscape:cx="251.30966"
+     inkscape:cy="60.658904"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -329,14 +329,6 @@
      x2="244.77194"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector29terminal"
-     width="0.00029090283"
-     x="247.95416"
-     y="180.75679" />
   <line
      style="stroke:#787878;stroke-width:0.87499768;stroke-linecap:round"
      class="pin"
@@ -346,14 +338,6 @@
      x2="251.13667"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector30terminal"
-     width="0.00029090283"
-     x="254.31889"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,258.82369,169.23958)"
      id="g88523">
@@ -382,14 +366,6 @@
      x2="257.5014"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector31terminal"
-     width="0.00029090283"
-     x="260.68365"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,265.11728,169.28841)"
      id="g88543">
@@ -418,14 +394,6 @@
      x2="263.86618"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector32terminal"
-     width="0.00029090283"
-     x="267.04843"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,271.62555,169.27411)"
      id="g88569">
@@ -490,14 +458,6 @@
      x2="270.23096"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector33terminal"
-     width="0.00029090283"
-     x="273.41321"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,277.81599,169.23958)"
      id="g88597">
@@ -874,14 +834,6 @@
      x2="219.31302"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector25terminal"
-     width="0.00029090283"
-     x="222.49524"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,227.17087,169.28841)"
      id="g88739">
@@ -910,14 +862,6 @@
      x2="225.67775"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector26terminal"
-     width="0.00029090283"
-     x="228.85997"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,233.63239,169.34316)"
      id="g88759">
@@ -946,14 +890,6 @@
      x2="238.40721"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector28terminal"
-     width="0.00029090283"
-     x="241.58943"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,246.28014,169.30863)"
      id="g88797">
@@ -982,14 +918,6 @@
      x2="232.04248"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector27terminal"
-     width="0.00029090283"
-     x="235.2247"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,239.79958,169.33724)"
      id="g88811">
@@ -1162,14 +1090,6 @@
      x2="276.59573"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector34terminal"
-     width="0.00029090283"
-     x="279.77798"
-     y="180.75679" />
   <line
      style="stroke:#787878;stroke-width:0.87499768;stroke-linecap:round"
      class="pin"
@@ -1287,14 +1207,6 @@
      x2="72.268875"
      y1="19.663727"
      y2="25.413483" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector79terminal"
-     width="0.00029090283"
-     x="62.896145"
-     y="22.440834" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,67.20943,30.331249)"
      id="g89081">
@@ -1533,14 +1445,6 @@
      x2="295.69006"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector37terminal"
-     width="0.00029090283"
-     x="298.87231"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,303.16511,170.25818)"
      id="g89223">
@@ -1725,14 +1629,6 @@
      x2="308.41962"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector39terminal"
-     width="0.00029090283"
-     x="311.60187"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,316.215,170.29271)"
      id="g89351">
@@ -1761,14 +1657,6 @@
      x2="302.05484"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector38terminal"
-     width="0.00029090283"
-     x="305.23709"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,309.92305,170.32724)"
      id="g89365">
@@ -1857,14 +1745,6 @@
      x2="289.32529"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector36terminal"
-     width="0.00029090283"
-     x="292.50754"
-     y="180.75679" />
   <g
      transform="matrix(2.9090282,0,0,2.2636842,284.24134,169.27411)"
      id="g89423">
@@ -1959,15 +1839,6 @@
      x2="189.68297"
      y1="181.06638"
      y2="175.01509" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector20terminal"
-     width="0.00023830336"
-     x="-182.73843"
-     y="190.52519"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -1989,15 +1860,6 @@
      x2="196.1855"
      y1="181.01743"
      y2="174.96611" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector21terminal"
-     width="0.00023830336"
-     x="-182.74486"
-     y="197.02811"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2019,15 +1881,6 @@
      x2="202.68805"
      y1="180.96835"
      y2="174.91705" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector22terminal"
-     width="0.00023830336"
-     x="-182.75128"
-     y="203.53104"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2049,15 +1902,6 @@
      x2="170.17534"
      y1="181.2135"
      y2="175.1622" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector17terminal"
-     width="0.00023830336"
-     x="-182.71913"
-     y="171.01642"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2079,15 +1923,6 @@
      x2="176.67789"
      y1="181.16452"
      y2="175.11311" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector18terminal"
-     width="0.00023830336"
-     x="-182.72556"
-     y="177.51935"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2109,15 +1944,6 @@
      x2="137.66263"
      y1="181.45863"
      y2="175.40733" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector12terminal"
-     width="0.00023830336"
-     x="-182.68698"
-     y="138.50179"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2139,15 +1965,6 @@
      x2="208.507"
      y1="180.77029"
      y2="174.74463" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022634142"
-     id="connector23terminal"
-     width="0.00029106022"
-     x="-183.76299"
-     y="209.3031"
-     transform="matrix(0.01861833,-0.99982666,0.99994575,-0.0104163,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2169,15 +1986,6 @@
      x2="213.67688"
      y1="180.72025"
      y2="174.84654" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022634142"
-     id="connector24terminal"
-     width="0.00029106022"
-     x="-183.77083"
-     y="215.80614"
-     transform="matrix(0.01861833,-0.99982666,0.99994575,-0.0104163,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2199,15 +2007,6 @@
      x2="144.16516"
      y1="181.40956"
      y2="175.35825" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector13terminal"
-     width="0.00023830336"
-     x="-182.69342"
-     y="145.00473"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2229,15 +2028,6 @@
      x2="131.1601"
      y1="181.50771"
      y2="175.45628" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector11terminal"
-     width="0.00023830336"
-     x="-182.68054"
-     y="131.99887"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2259,15 +2049,6 @@
      x2="124.65756"
      y1="181.55666"
      y2="175.50537" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector10terminal"
-     width="0.00023830336"
-     x="-182.6741"
-     y="125.49594"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2289,15 +2070,6 @@
      x2="118.15501"
      y1="181.60574"
      y2="175.55434" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector9terminal"
-     width="0.00023830336"
-     x="-182.66769"
-     y="118.99302"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2319,15 +2091,6 @@
      x2="72.637276"
      y1="181.94891"
      y2="175.89752" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector2terminal"
-     width="0.00023830336"
-     x="-182.62265"
-     y="73.47261"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:3.75px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2345,15 +2108,6 @@
      x2="79.139816"
      y1="181.89986"
      y2="175.84854" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector3terminal"
-     width="0.00023830336"
-     x="-182.6291"
-     y="79.975525"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2375,15 +2129,6 @@
      x2="85.642349"
      y1="181.85089"
      y2="175.79948" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector4terminal"
-     width="0.00023830336"
-     x="-182.63553"
-     y="86.478447"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2396,15 +2141,6 @@
        style="font-size:3.75px"
        id="tspan4502">P2.12</tspan>
   </text>
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector0terminal"
-     width="0.00023830336"
-     x="-182.64186"
-     y="64.225266"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <line
      style="stroke:#787878;stroke-width:0.87499768;stroke-linecap:round"
      class="pin"
@@ -2414,15 +2150,6 @@
      x2="111.65248"
      y1="181.65471"
      y2="175.60339" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector8terminal"
-     width="0.00023830336"
-     x="-182.66127"
-     y="112.49011"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2444,15 +2171,6 @@
      x2="92.144882"
      y1="181.8018"
      y2="175.75052" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector5terminal"
-     width="0.00023830336"
-     x="-182.64195"
-     y="92.981354"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2474,15 +2192,6 @@
      x2="98.647415"
      y1="181.75275"
      y2="175.70143" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector6terminal"
-     width="0.00023830336"
-     x="-182.64839"
-     y="99.484276"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2504,15 +2213,6 @@
      x2="105.14996"
      y1="181.70378"
      y2="175.65237" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector7terminal"
-     width="0.00023830336"
-     x="-182.65482"
-     y="105.9872"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2534,15 +2234,6 @@
      x2="163.67279"
      y1="181.26256"
      y2="175.21115" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector16terminal"
-     width="0.00023830336"
-     x="-182.71269"
-     y="164.5135"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2564,15 +2255,6 @@
      x2="183.18042"
      y1="181.11546"
      y2="175.06416" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector19terminal"
-     width="0.00023830336"
-     x="-182.73201"
-     y="184.02228"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2594,15 +2276,6 @@
      x2="66.134743"
      y1="181.99788"
      y2="175.94658" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector1terminal"
-     width="0.00023830336"
-     x="-182.61624"
-     y="66.969681"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:3.75px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2620,15 +2293,6 @@
      x2="157.17026"
      y1="181.31152"
      y2="175.26024" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector15terminal"
-     width="0.00023830336"
-     x="-182.70627"
-     y="158.01056"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2650,15 +2314,6 @@
      x2="150.66771"
      y1="181.3606"
      y2="175.3092" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022633738"
-     id="connector14terminal"
-     width="0.00023830336"
-     x="-182.69986"
-     y="151.50763"
-     transform="matrix(0.02274016,-0.99974141,0.99996364,-0.00852769,0,0)" />
   <text
      style="font-size:2.26319981px;font-family:'Droid Sans';text-anchor:middle;fill:#8c8c8c;stroke:none;stroke-width:0"
      class="text"
@@ -2680,14 +2335,6 @@
      x2="282.96051"
      y1="180.75679"
      y2="175.00703" />
-  <rect
-     style="fill:none;stroke:none;stroke-width:0"
-     class="terminal"
-     height="0.00022636841"
-     id="connector35terminal"
-     width="0.00029090283"
-     x="286.14276"
-     y="180.75679" />
   <line
      style="stroke:#787878;stroke-width:0.87499768;stroke-linecap:round"
      class="pin"
