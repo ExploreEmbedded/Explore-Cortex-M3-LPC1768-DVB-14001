@@ -25,7 +25,7 @@ void main()
         DELAY_sec(3);
                                   
         LCD_Clear();
-        LCD_Printf("DecNum:%4d",1234);
+        LCD_Printf("DecNum:%4d",1234);								   
         LCD_Printf("\nHexNum:%4x",0xABCD);
         DELAY_sec(3);
                                   

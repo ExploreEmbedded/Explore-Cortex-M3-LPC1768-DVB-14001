@@ -132,7 +132,7 @@ void main()
 #include "gpio.h"
 
 #define MY_LED    P2_0     // Led is connected to P2.0
-#define MY_SWITCH P2_12    // Switch is connected to P2.12
+#define MY_SWITCH P1_0    // Switch is connected to P2.12
 
 /* start the main program */
 void main() 

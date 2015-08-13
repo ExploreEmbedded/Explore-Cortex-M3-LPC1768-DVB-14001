@@ -14,7 +14,7 @@
 ### ADS-LD Output File: 'Lcd_8bit_usingLib.axf'
 ### ADS-LD Command File: 'Lcd_8bit_usingLib.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'Lcd_8bit_usingLib.lnp', Handle=0x00000610
+### Creating CmdFile 'Lcd_8bit_usingLib.lnp', Handle=0x0000061C
 ### Writing '.lnp' file
 ### ADS-LD Command file 'Lcd_8bit_usingLib.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

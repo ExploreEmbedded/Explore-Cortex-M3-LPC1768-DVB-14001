@@ -13,7 +13,7 @@
 ### ADS-LD Output File: 'Led_Blinking.axf'
 ### ADS-LD Command File: 'Led_Blinking.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'Led_Blinking.lnp', Handle=0x000001BC
+### Creating CmdFile 'Led_Blinking.lnp', Handle=0x000005C8
 ### Writing '.lnp' file
 ### ADS-LD Command file 'Led_Blinking.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

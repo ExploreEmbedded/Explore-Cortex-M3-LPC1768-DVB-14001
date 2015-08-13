@@ -16,7 +16,7 @@
 ### ADS-LD Output File: 'Adc_lib_Usage.axf'
 ### ADS-LD Command File: 'Adc_lib_Usage.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'Adc_lib_Usage.lnp', Handle=0x000001B4
+### Creating CmdFile 'Adc_lib_Usage.lnp', Handle=0x00000638
 ### Writing '.lnp' file
 ### ADS-LD Command file 'Adc_lib_Usage.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

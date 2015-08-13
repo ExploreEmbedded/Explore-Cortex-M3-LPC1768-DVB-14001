@@ -186,7 +186,7 @@
       <Focus>0</Focus>
       <ColumnNumber>11</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>31</TopLine>
+      <TopLine>1</TopLine>
       <CurrentLine>31</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\delay.c</PathWithFileName>
@@ -198,10 +198,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>51</ColumnNumber>
+      <ColumnNumber>22</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>111</TopLine>
-      <CurrentLine>111</CurrentLine>
+      <CurrentLine>135</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\switchLed_main.c</PathWithFileName>
       <FilenameWithoutPath>switchLed_main.c</FilenameWithoutPath>
@@ -304,25 +304,13 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>1</ActiveTab>
+      <ActiveTab>3</ActiveTab>
       <Documents>
         <Doc>
-          <Name>.\delay.c</Name>
-          <ColumnNumber>11</ColumnNumber>
-          <TopLine>31</TopLine>
-          <CurrentLine>31</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\switchLed_main.c</Name>
-          <ColumnNumber>51</ColumnNumber>
-          <TopLine>111</TopLine>
-          <CurrentLine>111</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>stdutils.h</Name>
-          <ColumnNumber>24</ColumnNumber>
-          <TopLine>133</TopLine>
-          <CurrentLine>133</CurrentLine>
+          <Name>gpio.h</Name>
+          <ColumnNumber>71</ColumnNumber>
+          <TopLine>86</TopLine>
+          <CurrentLine>92</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\gpio.c</Name>
@@ -331,10 +319,22 @@
           <CurrentLine>108</CurrentLine>
         </Doc>
         <Doc>
-          <Name>gpio.h</Name>
-          <ColumnNumber>71</ColumnNumber>
-          <TopLine>86</TopLine>
-          <CurrentLine>92</CurrentLine>
+          <Name>stdutils.h</Name>
+          <ColumnNumber>24</ColumnNumber>
+          <TopLine>133</TopLine>
+          <CurrentLine>133</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\switchLed_main.c</Name>
+          <ColumnNumber>22</ColumnNumber>
+          <TopLine>111</TopLine>
+          <CurrentLine>135</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\delay.c</Name>
+          <ColumnNumber>11</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>31</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

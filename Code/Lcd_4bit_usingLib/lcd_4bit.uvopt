@@ -186,8 +186,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>240</TopLine>
+      <CurrentLine>240</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\startup_LPC17xx.s</PathWithFileName>
       <FilenameWithoutPath>startup_LPC17xx.s</FilenameWithoutPath>
@@ -198,10 +198,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>70</ColumnNumber>
+      <ColumnNumber>118</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>17</TopLine>
-      <CurrentLine>28</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>22</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -214,8 +214,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>431</TopLine>
+      <CurrentLine>431</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\system_LPC17xx.c</PathWithFileName>
       <FilenameWithoutPath>system_LPC17xx.c</FilenameWithoutPath>
@@ -240,10 +240,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>31</ColumnNumber>
+      <ColumnNumber>45</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>713</TopLine>
-      <CurrentLine>713</CurrentLine>
+      <TopLine>598</TopLine>
+      <CurrentLine>598</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\lcd.c</PathWithFileName>
       <FilenameWithoutPath>lcd.c</FilenameWithoutPath>
@@ -358,37 +358,13 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>0</ActiveTab>
+      <ActiveTab>6</ActiveTab>
       <Documents>
         <Doc>
-          <Name>.\main.c</Name>
-          <ColumnNumber>70</ColumnNumber>
-          <TopLine>17</TopLine>
-          <CurrentLine>28</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>C:\Keil\ARM\INC\NXP\LPC17xx\lpc17xx.h</Name>
-          <ColumnNumber>18</ColumnNumber>
-          <TopLine>997</TopLine>
-          <CurrentLine>1008</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\lcd.c</Name>
-          <ColumnNumber>31</ColumnNumber>
-          <TopLine>713</TopLine>
-          <CurrentLine>713</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>lcd.h</Name>
-          <ColumnNumber>34</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\gpio.c</Name>
-          <ColumnNumber>48</ColumnNumber>
-          <TopLine>45</TopLine>
-          <CurrentLine>55</CurrentLine>
+          <Name>.\delay.c</Name>
+          <ColumnNumber>37</ColumnNumber>
+          <TopLine>36</TopLine>
+          <CurrentLine>36</CurrentLine>
         </Doc>
         <Doc>
           <Name>stdutils.h</Name>
@@ -397,10 +373,46 @@
           <CurrentLine>161</CurrentLine>
         </Doc>
         <Doc>
-          <Name>.\delay.c</Name>
-          <ColumnNumber>37</ColumnNumber>
-          <TopLine>36</TopLine>
-          <CurrentLine>36</CurrentLine>
+          <Name>.\gpio.c</Name>
+          <ColumnNumber>48</ColumnNumber>
+          <TopLine>45</TopLine>
+          <CurrentLine>55</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>lcd.h</Name>
+          <ColumnNumber>34</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>1</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\lcd.c</Name>
+          <ColumnNumber>45</ColumnNumber>
+          <TopLine>598</TopLine>
+          <CurrentLine>598</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>C:\Keil\ARM\INC\NXP\LPC17xx\lpc17xx.h</Name>
+          <ColumnNumber>18</ColumnNumber>
+          <TopLine>997</TopLine>
+          <CurrentLine>1008</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\main.c</Name>
+          <ColumnNumber>118</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>22</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\startup_LPC17xx.s</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>240</TopLine>
+          <CurrentLine>240</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\system_LPC17xx.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>431</TopLine>
+          <CurrentLine>431</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

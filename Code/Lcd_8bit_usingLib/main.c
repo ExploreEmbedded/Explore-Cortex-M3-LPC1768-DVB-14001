@@ -9,7 +9,7 @@ void main()
 
    /* Setup/Map the controller pins for LCD operation 
                RS   RW   EN    D0    D1    D2   D3     D4   D5    D6    D7*/
-    LCD_SetUp(P2_0,P2_1,P2_2,P0_0,P0_1,P0_2,P0_3,P0_4,P0_5,P0_6,P0_7);//P1_20,P1_21,P1_22,P1_23,P1_24,P1_25,P1_26,P1_27);
+    LCD_SetUp(P2_0,P2_1,P2_2,P1_20,P1_21,P1_22,P1_23,P1_24,P1_25,P1_26,P1_27);//P1_20,P1_21,P1_22,P1_23,P1_24,P1_25,P1_26,P1_27);
 
   /* Specify the LCD type(2x16, 4x16 etc) for initialization*/
     LCD_Init(2,16);

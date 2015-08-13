@@ -739,7 +739,7 @@ void LCD_Printf(const char *argList, ...)
                 break;    
 
             case 'u':    /* Argument type is of unsigned integer, hence read 16bit unsigned data */
-                var_num_u16 = va_arg(argp, int);
+                var_num_u16 = va_arg(argp, i nt);
 #if (Enable_LCD_DisplayNumber == 1)
                 LCD_DisplayNumber(E_DECIMAL,var_num_u16,var_numOfDigitsToDisp_u8);
 #endif                

@@ -13,7 +13,7 @@
 ### ADS-LD Output File: 'Switch_Led.axf'
 ### ADS-LD Command File: 'Switch_Led.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'Switch_Led.lnp', Handle=0x00000314
+### Creating CmdFile 'Switch_Led.lnp', Handle=0x00000894
 ### Writing '.lnp' file
 ### ADS-LD Command file 'Switch_Led.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
