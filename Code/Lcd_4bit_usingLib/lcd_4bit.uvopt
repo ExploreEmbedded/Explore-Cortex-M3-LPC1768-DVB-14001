@@ -358,7 +358,7 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>6</ActiveTab>
+      <ActiveTab>0</ActiveTab>
       <Documents>
         <Doc>
           <Name>.\delay.c</Name>
@@ -367,40 +367,10 @@
           <CurrentLine>36</CurrentLine>
         </Doc>
         <Doc>
-          <Name>stdutils.h</Name>
-          <ColumnNumber>63</ColumnNumber>
-          <TopLine>150</TopLine>
-          <CurrentLine>161</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\gpio.c</Name>
-          <ColumnNumber>48</ColumnNumber>
-          <TopLine>45</TopLine>
-          <CurrentLine>55</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>lcd.h</Name>
-          <ColumnNumber>34</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\lcd.c</Name>
-          <ColumnNumber>45</ColumnNumber>
-          <TopLine>598</TopLine>
-          <CurrentLine>598</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>C:\Keil\ARM\INC\NXP\LPC17xx\lpc17xx.h</Name>
-          <ColumnNumber>18</ColumnNumber>
-          <TopLine>997</TopLine>
-          <CurrentLine>1008</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\main.c</Name>
-          <ColumnNumber>118</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>22</CurrentLine>
+          <Name>.\system_LPC17xx.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>431</TopLine>
+          <CurrentLine>431</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\startup_LPC17xx.s</Name>
@@ -409,10 +379,40 @@
           <CurrentLine>240</CurrentLine>
         </Doc>
         <Doc>
-          <Name>.\system_LPC17xx.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>431</TopLine>
-          <CurrentLine>431</CurrentLine>
+          <Name>.\main.c</Name>
+          <ColumnNumber>118</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>22</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>C:\Keil\ARM\INC\NXP\LPC17xx\lpc17xx.h</Name>
+          <ColumnNumber>18</ColumnNumber>
+          <TopLine>997</TopLine>
+          <CurrentLine>1008</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\lcd.c</Name>
+          <ColumnNumber>45</ColumnNumber>
+          <TopLine>598</TopLine>
+          <CurrentLine>598</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>lcd.h</Name>
+          <ColumnNumber>34</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>1</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\gpio.c</Name>
+          <ColumnNumber>48</ColumnNumber>
+          <TopLine>45</TopLine>
+          <CurrentLine>55</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>stdutils.h</Name>
+          <ColumnNumber>63</ColumnNumber>
+          <TopLine>150</TopLine>
+          <CurrentLine>161</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>
