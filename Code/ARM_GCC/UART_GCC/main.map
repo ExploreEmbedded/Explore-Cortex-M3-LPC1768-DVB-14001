@@ -4,6 +4,18 @@ Discarded input sections
  .text          0x00000000        0x0 startup_LPC17xx.o
  .data          0x00000000        0x0 startup_LPC17xx.o
  .bss           0x00000000        0x0 startup_LPC17xx.o
+ .text          0x00000000        0x0 delay.o
+ .data          0x00000000        0x0 delay.o
+ .bss           0x00000000        0x0 delay.o
+ .text.DELAY_us
+                0x00000000       0x40 delay.o
+ .text.DELAY_ms
+                0x00000000       0x2c delay.o
+ .text.DELAY_sec
+                0x00000000       0x2c delay.o
+ .comment       0x00000000       0x71 delay.o
+ .ARM.attributes
+                0x00000000       0x37 delay.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
@@ -66,16 +78,16 @@ Discarded input sections
  .data          0x00000000        0x0 uart.o
  .bss           0x00000000        0x0 uart.o
  .text.UART_RxChar
-                0x00000000       0x5c uart.o
+                0x00000000       0x4c uart.o
  .text.UART_RxString
-                0x00000000       0x50 uart.o
+                0x00000000       0x4c uart.o
  .text.UART_TxFloatNumber
-                0x00000000       0x84 uart.o
+                0x00000000       0x78 uart.o
  .text          0x00000000        0x0 system_LPC17xx.o
  .data          0x00000000        0x0 system_LPC17xx.o
  .bss           0x00000000        0x0 system_LPC17xx.o
  .text.SystemCoreClockUpdate
-                0x00000000      0x22c system_LPC17xx.o
+                0x00000000      0x16c system_LPC17xx.o
 
 Memory Configuration
 
@@ -89,83 +101,83 @@ IRAM2            0x20080000         0x00004000         xrw
 Linker script and memory map
 
 
-.text           0x00000000      0xd2c
+.text           0x00000000      0xb04
  *(.isr_vector .isr_vector.*)
  .isr_vector    0x00000000       0xc4 startup_LPC17xx.o
                 0x00000000                g_pfnVectors
  *(.text .text.*)
  .text.Reset_Handler
-                0x000000c4       0xf0 startup_LPC17xx.o
+                0x000000c4       0xb0 startup_LPC17xx.o
                 0x000000c4                Reset_Handler
  .text.Default_Handler
-                0x000001b4        0x8 startup_LPC17xx.o
-                0x000001b4                TIMER2_IRQHandler
-                0x000001b4                DebugMon_Handler
-                0x000001b4                RIT_IRQHandler
-                0x000001b4                I2C0_IRQHandler
-                0x000001b4                SysTick_Handler
-                0x000001b4                PWM1_IRQHandler
-                0x000001b4                PendSV_Handler
-                0x000001b4                I2C1_IRQHandler
-                0x000001b4                EINT2_IRQHandler
-                0x000001b4                UART1_IRQHandler
-                0x000001b4                EINT3_IRQHandler
-                0x000001b4                TIMER3_IRQHandler
-                0x000001b4                UART0_IRQHandler
-                0x000001b4                UsageFault_Handler
-                0x000001b4                PLL0_IRQHandler
-                0x000001b4                CAN_IRQHandler
-                0x000001b4                PLL1_IRQHandler
-                0x000001b4                SSP0_IRQHandler
-                0x000001b4                I2S_IRQHandler
-                0x000001b4                I2C2_IRQHandler
-                0x000001b4                RTC_IRQHandler
-                0x000001b4                TIMER0_IRQHandler
-                0x000001b4                SPI_IRQHandler
-                0x000001b4                EINT1_IRQHandler
-                0x000001b4                TIMER1_IRQHandler
-                0x000001b4                UART2_IRQHandler
-                0x000001b4                Default_Handler
-                0x000001b4                ADC_IRQHandler
-                0x000001b4                SSP1_IRQHandler
-                0x000001b4                USB_IRQHandler
-                0x000001b4                BOD_IRQHandler
-                0x000001b4                MemManage_Handler
-                0x000001b4                WDT_IRQHandler
-                0x000001b4                SVC_Handler
-                0x000001b4                QEI_IRQHandler
-                0x000001b4                EINT0_IRQHandler
-                0x000001b4                DMA_IRQHandler
-                0x000001b4                BusFault_Handler
-                0x000001b4                UART3_IRQHandler
-                0x000001b4                MCPWM_IRQHandler
-                0x000001b4                ENET_IRQHandler
- .text.main     0x000001bc       0xb8 main.o
-                0x000001bc                main
+                0x00000174        0x8 startup_LPC17xx.o
+                0x00000174                TIMER2_IRQHandler
+                0x00000174                DebugMon_Handler
+                0x00000174                RIT_IRQHandler
+                0x00000174                I2C0_IRQHandler
+                0x00000174                SysTick_Handler
+                0x00000174                PWM1_IRQHandler
+                0x00000174                PendSV_Handler
+                0x00000174                I2C1_IRQHandler
+                0x00000174                EINT2_IRQHandler
+                0x00000174                UART1_IRQHandler
+                0x00000174                EINT3_IRQHandler
+                0x00000174                TIMER3_IRQHandler
+                0x00000174                UART0_IRQHandler
+                0x00000174                UsageFault_Handler
+                0x00000174                PLL0_IRQHandler
+                0x00000174                CAN_IRQHandler
+                0x00000174                PLL1_IRQHandler
+                0x00000174                SSP0_IRQHandler
+                0x00000174                I2S_IRQHandler
+                0x00000174                I2C2_IRQHandler
+                0x00000174                RTC_IRQHandler
+                0x00000174                TIMER0_IRQHandler
+                0x00000174                SPI_IRQHandler
+                0x00000174                EINT1_IRQHandler
+                0x00000174                TIMER1_IRQHandler
+                0x00000174                UART2_IRQHandler
+                0x00000174                Default_Handler
+                0x00000174                ADC_IRQHandler
+                0x00000174                SSP1_IRQHandler
+                0x00000174                USB_IRQHandler
+                0x00000174                BOD_IRQHandler
+                0x00000174                MemManage_Handler
+                0x00000174                WDT_IRQHandler
+                0x00000174                SVC_Handler
+                0x00000174                QEI_IRQHandler
+                0x00000174                EINT0_IRQHandler
+                0x00000174                DMA_IRQHandler
+                0x00000174                BusFault_Handler
+                0x00000174                UART3_IRQHandler
+                0x00000174                MCPWM_IRQHandler
+                0x00000174                ENET_IRQHandler
+ .text.main     0x0000017c       0xb8 main.o
+                0x0000017c                main
  .text.GPIO_PinFunction
-                0x00000274       0x90 gpio.o
-                0x00000274                GPIO_PinFunction
+                0x00000234       0x90 gpio.o
+                0x00000234                GPIO_PinFunction
  .text.UART_Init
-                0x00000304       0xe0 uart.o
-                0x00000304                UART_Init
+                0x000002c4       0x9c uart.o
+                0x000002c4                UART_Init
  .text.UART_SetBaudRate
-                0x000003e4      0x104 uart.o
-                0x000003e4                UART_SetBaudRate
+                0x00000360       0xc8 uart.o
+                0x00000360                UART_SetBaudRate
  .text.UART_TxChar
-                0x000004e8       0x54 uart.o
-                0x000004e8                UART_TxChar
+                0x00000428       0x4c uart.o
+                0x00000428                UART_TxChar
  .text.UART_TxString
-                0x0000053c       0x34 uart.o
-                0x0000053c                UART_TxString
+                0x00000474       0x30 uart.o
+                0x00000474                UART_TxString
  .text.UART_TxNumber
-                0x00000570      0x16c uart.o
-                0x00000570                UART_TxNumber
+                0x000004a4      0x144 uart.o
+                0x000004a4                UART_TxNumber
  .text.UART_Printf
-                0x000006dc      0x3a0 uart.o
-                0x000006dc                UART_Printf
+                0x000005e8      0x354 uart.o
+                0x000005e8                UART_Printf
  .text.SystemInit
-                0x00000a7c      0x220 system_LPC17xx.o
-                0x00000a7c                SystemInit
+                0x0000093c      0x138 system_LPC17xx.o
+                0x0000093c                SystemInit
  *(.gnu.linkonce.t.*)
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
@@ -173,43 +185,43 @@ Linker script and memory map
  .glue_7t       0x00000000        0x0 linker stubs
  *(.gcc_except_table)
  *(.rodata .rodata*)
- .rodata        0x00000c9c       0x6d main.o
- *fill*         0x00000d09        0x3 
+ .rodata        0x00000a74       0x6d main.o
+ *fill*         0x00000ae1        0x3 
  .rodata.STR_UartConfig
-                0x00000d0c       0x20 uart.o
-                0x00000d0c                STR_UartConfig
+                0x00000ae4       0x20 uart.o
+                0x00000ae4                STR_UartConfig
  *(.gnu.linkonce.r.*)
 
-.vfp11_veneer   0x00000d2c        0x0
+.vfp11_veneer   0x00000b04        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00000d2c        0x0
+.v4_bx          0x00000b04        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00000d2c        0x0
+.iplt           0x00000b04        0x0
  .iplt          0x00000000        0x0 startup_LPC17xx.o
 
-.rel.dyn        0x00000d2c        0x0
+.rel.dyn        0x00000b04        0x0
  .rel.iplt      0x00000000        0x0 startup_LPC17xx.o
 
-.ctors          0x00000d2c        0x0
-                0x00000d2c                . = ALIGN (0x4)
-                0x00000d2c                PROVIDE (__ctors_start, .)
+.ctors          0x00000b04        0x0
+                0x00000b04                . = ALIGN (0x4)
+                0x00000b04                PROVIDE (__ctors_start, .)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x00000d2c                PROVIDE (__ctors_end, .)
+                0x00000b04                PROVIDE (__ctors_end, .)
 
-.dtors          0x00000d2c        0x0
-                0x00000d2c                . = ALIGN (0x4)
-                0x00000d2c                PROVIDE (__dtors_start, .)
+.dtors          0x00000b04        0x0
+                0x00000b04                . = ALIGN (0x4)
+                0x00000b04                PROVIDE (__dtors_start, .)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x00000d2c                PROVIDE (__dtors_end, .)
-                0x00000d2c                . = ALIGN (0x4)
-                0x00000d2c                _etext = .
-                0x00000d2c                _sifastcode = .
+                0x00000b04                PROVIDE (__dtors_end, .)
+                0x00000b04                . = ALIGN (0x4)
+                0x00000b04                _etext = .
+                0x00000b04                _sifastcode = .
 
-.fastcode       0x10000000        0x0 load address 0x00000d2c
+.fastcode       0x10000000        0x0 load address 0x00000b04
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _sfastcode = .
  *(.glue_7t)
@@ -222,8 +234,8 @@ Linker script and memory map
 .usb_ram
  *.o(USB_RAM)
 
-.data           0x10000000        0x4 load address 0x00000d2c
-                0x00000d2c                _sidata = LOADADDR (.data)
+.data           0x10000000        0x4 load address 0x00000b04
+                0x00000b04                _sidata = LOADADDR (.data)
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _sdata = .
  *(vtable vtable.*)
@@ -235,10 +247,10 @@ Linker script and memory map
                 0x10000004                . = ALIGN (0x4)
                 0x10000004                _edata = .
 
-.igot.plt       0x10000004        0x0 load address 0x00000d30
+.igot.plt       0x10000004        0x0 load address 0x00000b08
  .igot.plt      0x00000000        0x0 startup_LPC17xx.o
 
-.bss            0x10000004        0x0 load address 0x00000d30
+.bss            0x10000004        0x0 load address 0x00000b08
                 0x10000004                . = ALIGN (0x4)
                 0x10000004                _sbss = .
  *(.bss .bss.*)
@@ -247,7 +259,7 @@ Linker script and memory map
                 0x10000004                . = ALIGN (0x4)
                 0x10000004                _ebss = .
 
-.stackarea      0x10000004      0x804 load address 0x00000d30
+.stackarea      0x10000004      0x804 load address 0x00000b08
                 0x10000008                . = ALIGN (0x8)
  *fill*         0x10000004        0x4 
                 0x10000008                _sstack = .
@@ -329,6 +341,7 @@ Linker script and memory map
 .debug_varnames
  *(.debug_varnames)
 LOAD startup_LPC17xx.o
+LOAD delay.o
 LOAD main.o
 LOAD core_cm3.o
 LOAD gpio.o
@@ -337,13 +350,13 @@ LOAD system_LPC17xx.o
 OUTPUT(main.elf elf32-littlearm)
 
 .comment        0x00000000       0x81
- .comment       0x00000000       0x11 startup_LPC17xx.o
-                                 0x12 (size before relaxing)
- .comment       0x00000011       0x70 main.o
+ .comment       0x00000000       0x70 startup_LPC17xx.o
                                  0x71 (size before relaxing)
- .comment       0x00000000       0x12 gpio.o
- .comment       0x00000000       0x12 uart.o
- .comment       0x00000000       0x12 system_LPC17xx.o
+ .comment       0x00000000       0x71 main.o
+ .comment       0x00000070       0x11 gpio.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x71 uart.o
+ .comment       0x00000000       0x71 system_LPC17xx.o
 
 .ARM.attributes
                 0x00000000       0x39
