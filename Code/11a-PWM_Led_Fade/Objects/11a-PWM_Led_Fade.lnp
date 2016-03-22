@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\objects\startup_lpc17xx.o"
+".\objects\main.o"
+".\objects\pwm.o"
+".\objects\system_lpc17xx.o"
+".\objects\gpio.o"
+".\objects\delay.o"
+--strict --scatter ".\Objects\11a-PWM_Led_Fade.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\11a-PWM_Led_Fade.map" -o .\Objects\11a-PWM_Led_Fade.axf

@@ -1,0 +1,25 @@
+*** Creating Trace Output File '07d-ADC_LCD.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "gpio.o" "startup_lpc17xx.o" "main.o" "adc.o" "delay.o" "lcd.o" "system_lpc17xx.o" --strict --scatter "07d-ADC_LCD.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\07d-ADC_LCD.map" -o "07d-ADC_LCD.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '07d-ADC_LCD.axf'
+### ADS-LD Command File: '07d-ADC_LCD.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '07d-ADC_LCD.lnp', Handle=0x00000584
+### Writing '.lnp' file
+### ADS-LD Command file '07d-ADC_LCD.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

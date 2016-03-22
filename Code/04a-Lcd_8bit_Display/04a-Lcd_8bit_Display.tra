@@ -1,0 +1,24 @@
+*** Creating Trace Output File '04a-Lcd_8bit_Display.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "delay.o" "gpio.o" "lcd.o" "system_lpc17xx.o" --strict --scatter "04a-Lcd_8bit_Display.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\04a-Lcd_8bit_Display.map" -o "04a-Lcd_8bit_Display.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '04a-Lcd_8bit_Display.axf'
+### ADS-LD Command File: '04a-Lcd_8bit_Display.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '04a-Lcd_8bit_Display.lnp', Handle=0x000003A4
+### Writing '.lnp' file
+### ADS-LD Command file '04a-Lcd_8bit_Display.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

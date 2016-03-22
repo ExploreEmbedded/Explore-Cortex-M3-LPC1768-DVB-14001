@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "delay.o" "gpio.o" "system_lpc17xx.o" "uart.o" "adc.o" --strict --scatter "07c-ADC_LM35_TempSensor.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\07c-ADC_LM35_TempSensor.map" -o "07c-ADC_LM35_TempSensor.axf"

@@ -1,0 +1,24 @@
+*** Creating Trace Output File '06d-UART_Tx_Numbers.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"uart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "delay.o" "gpio.o" "system_lpc17xx.o" "uart.o" --strict --scatter "06d-UART_Tx_Numbers.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\06d-UART_Tx_Numbers.map" -o "06d-UART_Tx_Numbers.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '06d-UART_Tx_Numbers.axf'
+### ADS-LD Command File: '06d-UART_Tx_Numbers.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '06d-UART_Tx_Numbers.lnp', Handle=0x000009E0
+### Writing '.lnp' file
+### ADS-LD Command file '06d-UART_Tx_Numbers.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\objects\startup_lpc17xx.o"
+".\objects\adc.o"
+".\objects\delay.o"
+".\objects\gpio.o"
+".\objects\keypad.o"
+".\objects\lcd.o"
+".\objects\pwm.o"
+".\objects\rtc.o"
+".\objects\system_lpc17xx.o"
+".\objects\uart.o"
+".\objects\main.o"
+--strict --scatter ".\Objects\ExploreLPC1768_Board_Test.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ExploreLPC1768_Board_Test.map" -o .\Objects\ExploreLPC1768_Board_Test.axf

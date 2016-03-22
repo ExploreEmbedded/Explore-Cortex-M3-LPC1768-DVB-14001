@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\objects\startup_lpc17xx.o"
+".\objects\gpio.o"
+".\objects\pwm.o"
+".\objects\system_lpc17xx.o"
+".\objects\uart.o"
+".\objects\main.o"
+--strict --scatter ".\Objects\11c-PWM_RGB_VIBGYOR.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\11c-PWM_RGB_VIBGYOR.map" -o .\Objects\11c-PWM_RGB_VIBGYOR.axf

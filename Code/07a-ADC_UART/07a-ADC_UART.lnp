@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "gpio.o" "startup_lpc17xx.o" "main.o" "adc.o" "delay.o" "system_lpc17xx.o" "uart.o" --strict --scatter "07a-ADC_UART.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\07a-ADC_UART.map" -o "07a-ADC_UART.axf"

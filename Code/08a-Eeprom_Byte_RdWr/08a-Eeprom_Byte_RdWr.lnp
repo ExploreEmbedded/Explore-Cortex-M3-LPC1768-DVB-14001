@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "delay.o" "gpio.o" "system_lpc17xx.o" "uart.o" "eeprom.o" "softi2c.o" --strict --scatter "08a-Eeprom_Byte_RdWr.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\08a-Eeprom_Byte_RdWr.map" -o "08a-Eeprom_Byte_RdWr.axf"

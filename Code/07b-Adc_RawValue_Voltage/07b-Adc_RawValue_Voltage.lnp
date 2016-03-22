@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "adc.o" "delay.o" "gpio.o" "system_lpc17xx.o" "uart.o" --strict --scatter "07b-Adc_RawValue_Voltage.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\07b-Adc_RawValue_Voltage.map" -o "07b-Adc_RawValue_Voltage.axf"

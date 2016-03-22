@@ -1,0 +1,25 @@
+*** Creating Trace Output File '07b-Adc_RawValue_Voltage.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"uart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "adc.o" "delay.o" "gpio.o" "system_lpc17xx.o" "uart.o" --strict --scatter "07b-Adc_RawValue_Voltage.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\07b-Adc_RawValue_Voltage.map" -o "07b-Adc_RawValue_Voltage.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '07b-Adc_RawValue_Voltage.axf'
+### ADS-LD Command File: '07b-Adc_RawValue_Voltage.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '07b-Adc_RawValue_Voltage.lnp', Handle=0x000008B4
+### Writing '.lnp' file
+### ADS-LD Command file '07b-Adc_RawValue_Voltage.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

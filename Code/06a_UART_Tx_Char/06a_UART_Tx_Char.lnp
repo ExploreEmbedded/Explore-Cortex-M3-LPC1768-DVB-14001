@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "delay.o" "gpio.o" "uart.o" "system_lpc17xx.o" --strict --scatter "06a_UART_Tx_Char.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\06a_UART_Tx_Char.map" -o "06a_UART_Tx_Char.axf"

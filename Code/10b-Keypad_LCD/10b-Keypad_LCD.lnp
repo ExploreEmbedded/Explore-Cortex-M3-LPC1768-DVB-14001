@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "delay.o" "gpio.o" "keypad.o" "system_lpc17xx.o" "lcd.o" --strict --scatter "10b-Keypad_LCD.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\10b-Keypad_LCD.map" -o "10b-Keypad_LCD.axf"

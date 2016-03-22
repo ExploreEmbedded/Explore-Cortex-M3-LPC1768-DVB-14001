@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "gpio.o" "startup_lpc17xx.o" "main.o" "delay.o" "lcd.o" "uart.o" "system_lpc17xx.o" --strict --scatter "06e-UART_String_RxTx_Lcd.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\06e-UART_String_RxTx_Lcd.map" -o "06e-UART_String_RxTx_Lcd.axf"

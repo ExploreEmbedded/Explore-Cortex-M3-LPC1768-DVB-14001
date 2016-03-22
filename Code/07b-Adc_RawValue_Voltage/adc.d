@@ -1,0 +1,11 @@
+adc.o: ..\00-libfiles\adc.c
+adc.o: ..\00-libfiles\adc.h
+adc.o: C:\Keil\ARM\INC\NXP\LPC17xx\lpc17xx.h
+adc.o: C:\Keil\ARM\RV31\INC\core_cm3.h
+adc.o: C:\Keil\ARM\RV31\INC\stdint.h
+adc.o: C:\Keil\ARM\RV31\INC\core_cmInstr.h
+adc.o: C:\Keil\ARM\RV31\INC\core_cmFunc.h
+adc.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+adc.o: ..\00-libfiles\stdutils.h
+adc.o: ..\00-libfiles\gpio.h
+adc.o: ..\00-libfiles\delay.h

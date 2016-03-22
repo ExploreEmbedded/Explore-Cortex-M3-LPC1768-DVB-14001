@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "delay.o" "gpio.o" "lcd.o" "rtc.o" "system_lpc17xx.o" --strict --scatter "09b-RTC_LCD.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\09b-RTC_LCD.map" -o "09b-RTC_LCD.axf"

@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "delay.o" "gpio.o" "lcd.o" "system_lpc17xx.o" --strict --scatter "04c-Lcd_8bit_Scrolling.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\04c-Lcd_8bit_Scrolling.map" -o "04c-Lcd_8bit_Scrolling.axf"

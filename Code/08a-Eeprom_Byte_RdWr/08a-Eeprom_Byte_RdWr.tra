@@ -1,0 +1,26 @@
+*** Creating Trace Output File '08a-Eeprom_Byte_RdWr.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"eeprom.o"'
+### List of Objects: adding '"softi2c.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "delay.o" "gpio.o" "system_lpc17xx.o" "uart.o" "eeprom.o" "softi2c.o" --strict --scatter "08a-Eeprom_Byte_RdWr.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\08a-Eeprom_Byte_RdWr.map" -o "08a-Eeprom_Byte_RdWr.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '08a-Eeprom_Byte_RdWr.axf'
+### ADS-LD Command File: '08a-Eeprom_Byte_RdWr.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '08a-Eeprom_Byte_RdWr.lnp', Handle=0x000007A8
+### Writing '.lnp' file
+### ADS-LD Command file '08a-Eeprom_Byte_RdWr.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

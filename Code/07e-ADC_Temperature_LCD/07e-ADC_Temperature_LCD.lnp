@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "adc.o" "delay.o" "gpio.o" "lcd.o" "system_lpc17xx.o" --strict --scatter "07e-ADC_Temperature_LCD.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\07e-ADC_Temperature_LCD.map" -o "07e-ADC_Temperature_LCD.axf"

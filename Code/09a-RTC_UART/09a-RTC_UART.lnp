@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "uart.o" "gpio.o" "rtc.o" "system_lpc17xx.o" "startup_lpc17xx.o" "main.o" --strict --scatter "09a-RTC_UART.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\09a-RTC_UART.map" -o "09a-RTC_UART.axf"

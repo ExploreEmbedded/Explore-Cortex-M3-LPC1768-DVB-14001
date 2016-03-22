@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "delay.o" "gpio.o" "lcd.o" "system_lpc17xx.o" --strict --scatter "05b-Lcd_4bit_UpCounter.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\05b-Lcd_4bit_UpCounter.map" -o "05b-Lcd_4bit_UpCounter.axf"
