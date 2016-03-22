@@ -1,0 +1,2 @@
+[paths]
+default = ssh://k10blogger@hg.code.sf.net/p/cortex-m3-apps/usbbootloader

@@ -1,1 +1,0 @@
--c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "main.o" --omf_browse "main.crf" --depend "main.d" "main.c"

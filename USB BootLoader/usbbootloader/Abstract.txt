@@ -1,0 +1,42 @@
+LPC1700 USB Bootloader
+
+Hardware configuration/requirements:
+-	Ensure that the jumpers for the USB's D+ and D- set to "DEVICE".
+-	A USB cable "Type B" to power the board and to access the USB bootloader.
+
+The secondary USB bootloader will check for:
+	1.	CRP3 code write protection
+	2.	Existing user code already programmed in flash (default address 0x2000)
+	3.	a "LOW" voltage level on the Entry pin (default P1.20)
+
+If user code is present and CRP 3 is enabled the USB bootloader will
+automatically execute the user code.
+
+If user code is present and CRP 3 is not enabled and the entry pin is:
+	FALSE (HIGH) it will also automatically execute the user code.
+	TRUE  (LOW) it will enter the USB bootloader.
+
+The default user code entry point:	FLASH sector 2 (0x2000)
+The default entry pin:	P1.20 requireing a LOW voltage level
+
+Once the bootloader has been loaded:
+	Open the new MSC drive showing in "My Computer" (Windows workstation)
+	Delete the default "firmware.bin"
+	Copy the new binary (.bin) of the user code onto the drive
+		(See the sample RTCCAL project abstract)
+	Change the entry pin voltage level to HIGH
+	Reset the LPC1700
+
+1、该例程为LPC1700 Secondary USB bootloader使用例程。
+
+2、使用说明
+   (1)工程文件路径：例程目录\LPC1700 Secondary USB bootloader\bootloader.uvproj。
+   (3)请使用MDK 4.0以上版本打开,MDK版本过低会导致无法识别工程。
+   (4)下载调试工具为板载仿真器。
+   (4)请将USB线插板子上,JP10插1-2 or 2-3位置，JP9J、P11插3-4位置。
+   (5)按下KEY1将进入bootloader模式。
+   (5)HEX文件下载到板子后,打开我的电脑新识别磁盘,删除文件firmware.bin,往磁盘拷贝文件
+      (LED2为读写指示灯,拷贝uCOSII2.91+UCGUI3.90A (Bootloader Flash 0x2000)目录下LandTiger.bin文件),成功拷贝表明例程运行正确。
+ 
+3、注意事项
+   请务必在下载、调试、运行过程中，保持板子上电、ULINK连接并插在电脑上。

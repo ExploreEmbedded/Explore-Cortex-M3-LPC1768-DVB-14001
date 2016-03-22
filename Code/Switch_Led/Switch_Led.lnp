@@ -1,3 +1,0 @@
---cpu Cortex-M3 "delay.o" "switchled_main.o" "system_lpc17xx.o" "startup_lpc17xx.o" "gpio.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\Switch_Led.map" -o "Switch_Led.axf"

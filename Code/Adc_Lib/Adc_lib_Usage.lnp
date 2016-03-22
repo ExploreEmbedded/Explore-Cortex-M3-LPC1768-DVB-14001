@@ -1,4 +1,0 @@
---cpu Cortex-M3 "adc.o" "delay.o" "gpio.o" "lcd.o" "main.o" "system_lpc17xx.o" "startup_lpc17xx.o" --strict --scatter "Adc_lib_Usage.sct" 
---autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\Adc_lib_Usage.map" -o "Adc_lib_Usage.axf"

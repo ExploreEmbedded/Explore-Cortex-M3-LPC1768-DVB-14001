@@ -1,0 +1,13 @@
+.\obj\usbuser.o: usb\usbuser.c
+.\obj\usbuser.o: .\common\inc\LPC17xx.h
+.\obj\usbuser.o: .\common\inc\core_cm3.h
+.\obj\usbuser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\usbuser.o: .\common\inc\system_LPC17xx.h
+.\obj\usbuser.o: .\common\inc\type.h
+.\obj\usbuser.o: usb\usb.h
+.\obj\usbuser.o: usb\usbcfg.h
+.\obj\usbuser.o: usb\usbhw.h
+.\obj\usbuser.o: usb\usbcore.h
+.\obj\usbuser.o: usb\usbuser.h
+.\obj\usbuser.o: .\msc\mscuser.h
+.\obj\usbuser.o: .\msc\memory.h

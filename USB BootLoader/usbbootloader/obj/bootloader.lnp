@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\obj\core_cm3.o"
+".\obj\system_lpc17xx.o"
+".\obj\startup_lpc17xx.o"
+".\obj\diskimg.o"
+".\obj\mscuser.o"
+".\obj\usbcore.o"
+".\obj\usbdesc.o"
+".\obj\usbhw.o"
+".\obj\usbuser.o"
+".\obj\sbl_iap.o"
+".\obj\memory.o"
+--strict --scatter ".\obj\bootloader.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lst\bootloader.map" -o .\obj\bootloader.axf

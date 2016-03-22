@@ -1,3 +1,0 @@
---cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "system_lpc17xx.o" "gpio.o" "lcd.o" "delay.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\lcd_4bit.map" -o "lcd_4bit.axf"
