@@ -30,52 +30,34 @@ GNU GENERAL PUBLIC LICENSE:
  
 Errors and omissions should be reported to codelibraries@exploreembedded.com
 **************************************************************************************************/
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 #ifndef __PWM_H 
 #define __PWM_H
-
 #include "stdutils.h"
 
 
-#define PWM_CYCLE		255
-#define PWM_OFFSET		200
 
-#define MR0_INT			(1 << 0)
-#define MR1_INT			(1 << 1)
-#define MR2_INT			(1 << 2)
-#define MR3_INT			(1 << 3)
-#define MR4_INT			(1 << 8)
-#define MR5_INT			(1 << 9)
-#define MR6_INT			(1 << 10)
+/*************************************************************************************************
+                           PWM Config Bit Positions
+*************************************************************************************************/
+#define PWM_1   1u   /* ((uint32_t)1<<0) */
+#define PWM_2   2u   /* ((uint32_t)1<<1) */
+#define PWM_3   4u   /* ((uint32_t)1<<2) */
+#define PWM_4   8u   /* ((uint32_t)1<<5) */
+#define PWM_5  16u   /* ((uint32_t)1<<4) */
+#define PWM_6  32u   /* ((uint32_t)1<<5) */
 
-#define TCR_CNT_EN		0x00000001
-#define TCR_RESET		0x00000002
-#define TCR_PWM_EN		0x00000008
+#define PWM_CHANNEL_MASK  0x3Fu /* 00111111- All 6pwm channels selected */
+/*************************************************************************************************/
 
-#define PWMMR0I			(1 << 0)
-#define PWMMR0R			(1 << 1)
-#define PWMMR0S			(1 << 2)
-#define PWMMR1I			(1 << 3)
-#define PWMMR1R			(1 << 4)
-#define PWMMR1S			(1 << 5)
-#define PWMMR2I			(1 << 6)
-#define PWMMR2R			(1 << 7)
-#define PWMMR2S			(1 << 8)
-#define PWMMR3I			(1 << 9)
-#define PWMMR3R			(1 << 10)
-#define PWMMR3S			(1 << 11)
-#define PWMMR4I			(1 << 12)
-#define PWMMR4R			(1 << 13)
-#define PWMMR4S			(1 << 14)
-#define PWMMR5I			(1 << 15)
-#define PWMMR5R			(1 << 16)
-#define PWMMR5S			(1 << 17)
-#define PWMMR6I			(1 << 18)
-#define PWMMR6R			(1 << 19)
-#define PWMMR6S			(1 << 20)
+
+
+/*************************************************************************************************
+                           PWM Config Bit Positions
+*************************************************************************************************/
+#define TCR_CNT_EN  0x00000001
+#define TCR_RESET	0x00000002
+#define TCR_PWM_EN	0x00000008
+
 
 #define PWMSEL2			(1 << 2)
 #define PWMSEL3			(1 << 3)
@@ -96,17 +78,21 @@ extern "C" {
 #define LER4_EN			(1 << 4)
 #define LER5_EN			(1 << 5)
 #define LER6_EN			(1 << 6)
+/*************************************************************************************************/
+#define PWM_CYCLE		255
 
-void PWM_Init(void);
+
+
+
+
+
+/***************************************************************************************************
+                             Function prototypes
+***************************************************************************************************/
+void PWM_Init(uint32_t cycleTime);
 void PWM_SetDutyCycle( uint32_t pin, uint32_t dutyCycle );
-void PWM_Start(void);
-void PWM_Stop(void);
+void PWM_Start(uint32_t pin);
+void PWM_Stop(uint32_t pin);
+/**************************************************************************************************/
 
 #endif /* end __PWM_H */
-
-#ifdef __cplusplus
-}
-#endif
-/****************************************************************************
-**                            End Of File
-****************************************************************************/

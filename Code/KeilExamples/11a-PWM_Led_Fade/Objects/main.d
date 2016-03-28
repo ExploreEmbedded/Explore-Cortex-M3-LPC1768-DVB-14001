@@ -7,5 +7,4 @@
 .\objects\main.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
 .\objects\main.o: ..\00-libfiles\pwm.h
 .\objects\main.o: ..\00-libfiles\stdutils.h
-.\objects\main.o: ..\00-libfiles\gpio.h
 .\objects\main.o: ..\00-libfiles\delay.h

@@ -10,3 +10,4 @@
 .\objects\main.o: ..\00-libfiles\adc.h
 .\objects\main.o: ..\00-libfiles\gpio.h
 .\objects\main.o: ..\00-libfiles\delay.h
+.\objects\main.o: ..\00-libfiles\uart.h

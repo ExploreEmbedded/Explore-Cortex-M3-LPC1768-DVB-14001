@@ -42,10 +42,11 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 #include "gpio.h"
 #include "stdutils.h"
 #include "delay.h"
+#include "uart.h"
 
-#define RED_LED    P2_0
-#define GREEN_LED  P2_1
-#define BLUE_LED   P2_2
+#define RED_LED    PWM_1
+#define GREEN_LED  PWM_2
+#define BLUE_LED   PWM_3
 
 
 /* start the main program */
@@ -54,8 +55,10 @@ int main()
 	  int red_value,green_value,blue_value;
     SystemInit();   //Clock and PLL configuration 
 	  ADC_Init();
-    PWM_Init();     /* Initialize the PWM module and the Cycle time(Ton+Toff) is set to 255(similar to arduino) */
-	  PWM_Start(); 
+	  UART0_Init(9600);
+    PWM_Init(255);     /* Initialize the PWM module and the Cycle time(Ton+Toff) is set to 255(similar to arduino) */
+	  PWM_Start(RED_LED|GREEN_LED|BLUE_LED); // Enable the PWM on P2_0,P2_1,P2_2
+  	
 
   while(1)
     {
@@ -65,7 +68,9 @@ int main()
 			
 			 PWM_SetDutyCycle(RED_LED,red_value);
 			 PWM_SetDutyCycle(GREEN_LED,green_value);
-			 PWM_SetDutyCycle(BLUE_LED,blue_value);      			
+			 PWM_SetDutyCycle(BLUE_LED,blue_value);  
+       
+       UART0_Printf("Red:%3d Green:%3d  Blue:%3d\n\r",red_value,green_value,blue_value);			
     }							  
 }
 

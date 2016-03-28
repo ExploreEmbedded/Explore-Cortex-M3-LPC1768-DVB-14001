@@ -8,3 +8,4 @@
 .\objects\pwm.o: ..\00-libfiles\pwm.h
 .\objects\pwm.o: ..\00-libfiles\stdutils.h
 .\objects\pwm.o: ..\00-libfiles\gpio.h
+.\objects\pwm.o: ..\00-libfiles\uart.h

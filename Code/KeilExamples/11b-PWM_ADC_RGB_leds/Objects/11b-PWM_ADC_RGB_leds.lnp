@@ -6,6 +6,7 @@
 ".\objects\pwm.o"
 ".\objects\system_lpc17xx.o"
 ".\objects\main.o"
+".\objects\uart.o"
 --strict --scatter ".\Objects\11b-PWM_ADC_RGB_leds.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

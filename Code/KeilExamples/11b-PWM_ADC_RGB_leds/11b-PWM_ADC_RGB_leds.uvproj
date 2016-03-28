@@ -449,11 +449,21 @@
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
             </File>
+            <File>
+              <FileName>uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-libfiles\uart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>Header</GroupName>
           <Files>
+            <File>
+              <FileName>uart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-libfiles\uart.h</FilePath>
+            </File>
             <File>
               <FileName>adc.h</FileName>
               <FileType>5</FileType>

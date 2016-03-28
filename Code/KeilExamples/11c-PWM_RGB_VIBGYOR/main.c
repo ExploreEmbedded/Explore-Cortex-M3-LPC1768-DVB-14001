@@ -44,9 +44,9 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 #include "stdutils.h"
 #include "uart.h"
 
-#define RED_LED    P2_0
-#define GREEN_LED  P2_1
-#define BLUE_LED   P2_2
+#define RED_LED    PWM_1
+#define GREEN_LED  PWM_2
+#define BLUE_LED   PWM_3
 
 
 /* start the main program */
@@ -55,13 +55,14 @@ int main()
     char colour;
     SystemInit();   //Clock and PLL configuration 
     UART0_Init(9600);
-    PWM_Init();     /* Initialize the PWM module and the Cycle time(Ton+Toff) is set to 255(similar to arduino) */
-    PWM_Start(); 
+    PWM_Init(255);     /* Initialize the PWM module and the Cycle time(Ton+Toff) is set to 255(similar to arduino) */
+    PWM_Start(RED_LED|GREEN_LED|BLUE_LED); 
 
     PWM_SetDutyCycle(RED_LED,255);
     PWM_SetDutyCycle(GREEN_LED,0);
     PWM_SetDutyCycle(BLUE_LED,0);   
 
+    UART0_Printf("\n\r Choose a Colour from VIBGYOR");
     while(1)
     {
         colour = UART0_RxChar();
@@ -88,8 +89,8 @@ int main()
             PWM_SetDutyCycle(RED_LED,0);
             PWM_SetDutyCycle(GREEN_LED,0);
             PWM_SetDutyCycle(BLUE_LED,255);
-				    break;
-				
+            break;
+
 
         case 'g': /* Green Color */
         case 'G':

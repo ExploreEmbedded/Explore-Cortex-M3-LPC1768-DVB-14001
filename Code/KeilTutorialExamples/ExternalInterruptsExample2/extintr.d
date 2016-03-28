@@ -1,0 +1,10 @@
+extintr.o: extintr.c
+extintr.o: C:\Keil\ARM\INC\NXP\LPC17xx\lpc17xx.h
+extintr.o: C:\Keil\ARM\RV31\INC\core_cm3.h
+extintr.o: C:\Keil\ARM\RV31\INC\stdint.h
+extintr.o: C:\Keil\ARM\RV31\INC\core_cmInstr.h
+extintr.o: C:\Keil\ARM\RV31\INC\core_cmFunc.h
+extintr.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+extintr.o: extintr.h
+extintr.o: stdutils.h
+extintr.o: gpio.h
