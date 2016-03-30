@@ -5,8 +5,7 @@
  * Version: 15.0
  * Author: ExploreEmbedded
  * Website: http://www.exploreembedded.com/wiki
- * Description: File contains the the gpio pin number configuration and  
-                function prototypes for the gpio routines
+ * Description: File contains the gpio pin number configuration and function prototypes for the gpio routines
  
 The libraries have been tested on ExploreEmbedded development boards. We strongly believe that the 
 library works on any of development boards for respective controllers. However, ExploreEmbedded 

@@ -346,7 +346,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>..\..\KeilExamples\00-libfiles</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -392,39 +392,39 @@
               <FilePath>.\startup_LPC17xx.s</FilePath>
             </File>
             <File>
-              <FileName>gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\gpio.c</FilePath>
-            </File>
-            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
             </File>
             <File>
-              <FileName>timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\timer.c</FilePath>
+              <FileName>stdutils.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\KeilExamples\00-libfiles\stdutils.h</FilePath>
             </File>
             <File>
               <FileName>system_LPC17xx.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\system_LPC17xx.c</FilePath>
+              <FilePath>..\..\KeilExamples\00-libfiles\system_LPC17xx.c</FilePath>
             </File>
             <File>
-              <FileName>gpio.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\gpio.h</FilePath>
-            </File>
-            <File>
-              <FileName>stdutils.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\stdutils.h</FilePath>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\KeilExamples\00-libfiles\timer.c</FilePath>
             </File>
             <File>
               <FileName>timer.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\timer.h</FilePath>
+              <FilePath>..\..\KeilExamples\00-libfiles\timer.h</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\KeilExamples\00-libfiles\gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\KeilExamples\00-libfiles\gpio.h</FilePath>
             </File>
           </Files>
         </Group>

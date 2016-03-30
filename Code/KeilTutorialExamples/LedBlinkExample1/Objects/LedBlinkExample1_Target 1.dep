@@ -1,0 +1,16 @@
+Dependencies for Project 'LedBlinkExample1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x531FDF50)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx--pd "__UVISION_VERSION SETA 517"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (.\main.c)(0x56FB4C7D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+F (.\system_LPC17xx.c)(0x56DEABFF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)

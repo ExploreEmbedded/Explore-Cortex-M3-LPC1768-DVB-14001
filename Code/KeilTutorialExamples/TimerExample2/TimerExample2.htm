@@ -1,9 +1,9 @@
 <!doctype html public "-//w3c//dtd html 4.0 transitional//en">
 <html><head>
-<title>Static Call Graph - [F:\Tutorials_And_Codes\Lpc1768\KeillTutorialExamples\TimerExample2\TimerExample2.axf]</title></head>
+<title>Static Call Graph - [F:\GitHub\LPC1768\Explore-Cortex-M3-LPC1768-DVB-14001\Code\KeilTutorialExamples\TimerExample2\TimerExample2.axf]</title></head>
 <body><HR>
-<H1>Static Call Graph for image F:\Tutorials_And_Codes\Lpc1768\KeillTutorialExamples\TimerExample2\TimerExample2.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 561]: Last Updated: Mon Mar 28 10:29:00 2016
+<H1>Static Call Graph for image F:\GitHub\LPC1768\Explore-Cortex-M3-LPC1768-DVB-14001\Code\KeilTutorialExamples\TimerExample2\TimerExample2.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 561]: Last Updated: Tue Mar 29 14:48:10 2016
 <BR><P>
 <H3>Maximum Stack Usage =         16 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -387,25 +387,6 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
 </UL>
 
-<P><STRONG><a name="[6f]"></a>GPIO_PinFunction</STRONG> (Thumb, 66 bytes, Stack size 12 bytes, gpio.o(.text), UNUSED)
-
-<P><STRONG><a name="[47]"></a>GPIO_PinDirection</STRONG> (Thumb, 46 bytes, Stack size 12 bytes, gpio.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GPIO_PinDirection
-</UL>
-<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-</UL>
-
-<P><STRONG><a name="[70]"></a>GPIO_PinWrite</STRONG> (Thumb, 46 bytes, Stack size 12 bytes, gpio.o(.text), UNUSED)
-
-<P><STRONG><a name="[44]"></a>GPIO_PinToggle</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, gpio.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = GPIO_PinToggle
-</UL>
-<BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myTimerIsr_1
-<LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myTimerIsr_0
-</UL>
-
-<P><STRONG><a name="[71]"></a>GPIO_PinRead</STRONG> (Thumb, 42 bytes, Stack size 12 bytes, gpio.o(.text), UNUSED)
-
 <P><STRONG><a name="[43]"></a>myTimerIsr_0</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, main.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = myTimerIsr_0 &rArr; GPIO_PinToggle
 </UL>
@@ -432,6 +413,25 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
+<P><STRONG><a name="[6f]"></a>GPIO_PinFunction</STRONG> (Thumb, 66 bytes, Stack size 12 bytes, gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[47]"></a>GPIO_PinDirection</STRONG> (Thumb, 46 bytes, Stack size 12 bytes, gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GPIO_PinDirection
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[70]"></a>GPIO_PinWrite</STRONG> (Thumb, 46 bytes, Stack size 12 bytes, gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[44]"></a>GPIO_PinToggle</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = GPIO_PinToggle
+</UL>
+<BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myTimerIsr_1
+<LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myTimerIsr_0
+</UL>
+
+<P><STRONG><a name="[71]"></a>GPIO_PinRead</STRONG> (Thumb, 42 bytes, Stack size 12 bytes, gpio.o(.text), UNUSED)
+
 <P><STRONG><a name="[72]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
 <P><STRONG><a name="[73]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
@@ -441,6 +441,12 @@ Global Symbols
 <P><STRONG><a name="[75]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
 <P><STRONG><a name="[76]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[77]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 320 bytes, Stack size 0 bytes, system_lpc17xx.o(.text), UNUSED)
+
+<P><STRONG><a name="[46]"></a>SystemInit</STRONG> (Thumb, 262 bytes, Stack size 0 bytes, system_lpc17xx.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
 
 <P><STRONG><a name="[4b]"></a>getPrescalarForUs</STRONG> (Thumb, 96 bytes, Stack size 0 bytes, timer.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Init
@@ -458,7 +464,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[77]"></a>TIMER_Stop</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, timer.o(.text), UNUSED)
+<P><STRONG><a name="[78]"></a>TIMER_Stop</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, timer.o(.text), UNUSED)
 
 <P><STRONG><a name="[49]"></a>TIMER_AttachInterrupt</STRONG> (Thumb, 60 bytes, Stack size 12 bytes, timer.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = TIMER_AttachInterrupt
@@ -466,9 +472,9 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[78]"></a>TIMER_GetTime</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, timer.o(.text), UNUSED)
+<P><STRONG><a name="[79]"></a>TIMER_GetTime</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, timer.o(.text), UNUSED)
 
-<P><STRONG><a name="[79]"></a>TIMER_SetTime</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, timer.o(.text), UNUSED)
+<P><STRONG><a name="[7a]"></a>TIMER_SetTime</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, timer.o(.text), UNUSED)
 
 <P><STRONG><a name="[d]"></a>TIMER0_IRQHandler</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, timer.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = TIMER0_IRQHandler
@@ -490,12 +496,6 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
 </UL>
-<P><STRONG><a name="[7a]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 320 bytes, Stack size 0 bytes, system_lpc17xx.o(.text), UNUSED)
-
-<P><STRONG><a name="[46]"></a>SystemInit</STRONG> (Thumb, 262 bytes, Stack size 0 bytes, system_lpc17xx.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-</UL>
-
 <P><STRONG><a name="[3a]"></a>__user_setup_stackheap</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
 <LI>Call Chain = __user_setup_stackheap

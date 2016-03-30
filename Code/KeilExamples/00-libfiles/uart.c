@@ -52,7 +52,7 @@ const uartChannelConfig_st UartConfig[C_MaxUartChannels_U8]=
     { P0_2, P0_3, PINSEL_FUNC_1,  3     ,(LPC_UART_TypeDef *)LPC_UART0_BASE}, /* Configure P0_2,P0_3 for UART0 function */
     { P2_0, P2_1, PINSEL_FUNC_2,  4     ,(LPC_UART_TypeDef *)LPC_UART1_BASE}, /* Configure P2_0,P2_1 for UART1 function */
     { P0_10,P0_11,PINSEL_FUNC_1,  24    ,(LPC_UART_TypeDef *)LPC_UART2_BASE}, /* Configure P0_10,P0_11 for UART2 function */
-    { P4_28,P4_29,PINSEL_FUNC_3,  25    ,(LPC_UART_TypeDef *)LPC_UART3_BASE}  /* Configure P4_28,P4_29 for UART3 function */ 
+    { P0_0, P0_1, PINSEL_FUNC_2,  25    ,(LPC_UART_TypeDef *)LPC_UART3_BASE}  /* Configure P0_0,P0_1 for UART3 function */ 
 };
 
 

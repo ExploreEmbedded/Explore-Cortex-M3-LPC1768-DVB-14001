@@ -1,0 +1,10 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\main.o"
+".\delay.o"
+".\gpio.o"
+".\lcd.o"
+".\system_lpc17xx.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\ADC_Example1.map" -o .\ADC_Example1.axf

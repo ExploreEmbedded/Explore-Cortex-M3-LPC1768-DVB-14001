@@ -55,22 +55,21 @@ typedef struct
   uint8_t weekDay;
   uint8_t date;
   uint8_t month;
-  uint8_t year;  
+  uint16_t year;  
 }rtc_t;
 /**************************************************************************************************/
 
 
 /***************************************************************************************************
-                             Commonly used Ds1307 macros/Constants
+                             Commonly used RTC macros/Constants
 ***************************************************************************************************/
-#define RTC_ClkCntrlReg		LPC_RTC->CCR
 
-#define RTC_CLKENposition	0x0		 	/* RTC Clock Enable*/
-#define RTC_CTCRSTposition	0x01		/* RTC Clock Reset */
-#define RTC_CCALENposition	0x04		/* RTC Calibration counter enable */
+#define SBIT_CLKEN   	  0		/* RTC Clock Enable*/
+#define SBIT_CTCRST	      1		/* RTC Clock Reset */
+#define SBIT_CCALEN	      4		/* RTC Calibration counter enable */
 
-#define RTC_CALDIRposition	17u
-#define PCRTC_BIT            9u
+#define SBIT_CALDIR    	 17
+#define SBIT_PCRTC        9
 
 /**************************************************************************************************/
 

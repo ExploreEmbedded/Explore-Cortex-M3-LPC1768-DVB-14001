@@ -385,8 +385,8 @@ Image Symbol Table
     USB_IRQHandler                           0x00002183   Thumb Code     0  startup_lpc17xx.o(.text)
     WDT_IRQHandler                           0x00002183   Thumb Code     0  startup_lpc17xx.o(.text)
     __user_initial_stackheap                 0x00002185   Thumb Code     0  startup_lpc17xx.o(.text)
-    delay_ms                                 0x000021a1   Thumb Code    24  main.o(.text)
-    main                                     0x000021b9   Thumb Code    48  main.o(.text)
+    delay_ms                                 0x000021a1   Thumb Code    26  main.o(.text)
+    main                                     0x000021bb   Thumb Code    48  main.o(.text)
     SystemCoreClockUpdate                    0x000021f5   Thumb Code   320  system_lpc17xx.o(.text)
     SystemInit                               0x00002335   Thumb Code   262  system_lpc17xx.o(.text)
     __use_two_region_memory                  0x0000248d   Thumb Code     2  heapauxi.o(.text)
@@ -510,12 +510,12 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-        84         12          0          0          0       4748   main.o
-        56         22        204          0        512        968   startup_lpc17xx.o
-       664         82          0          4          0        933   system_lpc17xx.o
+        84         10          0          0          0       4776   main.o
+        56         22        204          0        512       1024   startup_lpc17xx.o
+       664         82          0          4          0        985   system_lpc17xx.o
 
     ----------------------------------------------------------------------
-       804        116        236          4        512       6649   Object Totals
+       804        114        236          4        512       6785   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          0          0          0          0          0          3   (incl. Padding)
 
@@ -566,9 +566,9 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      1100        136        236          4        612       6900   Grand Totals
-      1100        136        236          4        612       6900   ELF Image Totals
-      1100        136        236          4          0          0   ROM Totals
+      1100        134        236          4        612       7036   Grand Totals
+      1100        134        236          4        612       7036   ELF Image Totals
+      1100        134        236          4          0          0   ROM Totals
 
 ==============================================================================
 

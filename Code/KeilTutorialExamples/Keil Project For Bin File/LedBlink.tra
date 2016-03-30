@@ -12,7 +12,7 @@
 ### ADS-LD Output File: 'LedBlink.axf'
 ### ADS-LD Command File: 'LedBlink.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'LedBlink.lnp', Handle=0x00000314
+### Creating CmdFile 'LedBlink.lnp', Handle=0x00000258
 ### Writing '.lnp' file
 ### ADS-LD Command file 'LedBlink.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

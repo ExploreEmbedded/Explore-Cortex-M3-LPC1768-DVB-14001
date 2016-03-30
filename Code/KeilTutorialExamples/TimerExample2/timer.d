@@ -1,9 +1,9 @@
-timer.o: timer.c
+timer.o: ..\..\KeilExamples\00-libfiles\timer.c
 timer.o: C:\Keil\ARM\INC\NXP\LPC17xx\lpc17xx.h
 timer.o: C:\Keil\ARM\RV31\INC\core_cm3.h
 timer.o: C:\Keil\ARM\RV31\INC\stdint.h
 timer.o: C:\Keil\ARM\RV31\INC\core_cmInstr.h
 timer.o: C:\Keil\ARM\RV31\INC\core_cmFunc.h
 timer.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
-timer.o: timer.h
-timer.o: stdutils.h
+timer.o: ..\..\KeilExamples\00-libfiles\timer.h
+timer.o: ..\..\KeilExamples\00-libfiles\stdutils.h

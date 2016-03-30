@@ -57,11 +57,11 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 ***************************************************************************************************/
 void RTC_Init(void)
 {
-    LPC_SC->PCONP |=(1<<9);
+    LPC_SC->PCONP |=(1<<9); // Enable the power to RTC module 
 	/* Disable RTC clock, reset clock, Enable RTC calibration */
-	LPC_RTC->CCR = ((1<<RTC_CTCRSTposition ) | (1<<RTC_CCALENposition));
+	LPC_RTC->CCR = ((1<<SBIT_CTCRST) | (1<<SBIT_CCALEN));
 	LPC_RTC->CALIBRATION = 0x00;
-    RTC_ClkCntrlReg = (1<<RTC_CLKENposition); /* Enable the clock for RTC */
+    LPC_RTC->CCR = (1<<SBIT_CLKEN); /* Enable the clock for RTC */
 }
 
 

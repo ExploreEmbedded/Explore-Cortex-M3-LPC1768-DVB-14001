@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\objects\startup_lpc17xx.o"
+".\objects\main.o"
+".\objects\system_lpc17xx.o"
+--strict --scatter ".\Objects\LedBlinkExample1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\LedBlinkExample1.map" -o .\Objects\LedBlinkExample1.axf

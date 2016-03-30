@@ -5,7 +5,7 @@
  * Version: 15.0
  * Author: ExploreEmbedded
  * Website: http://www.exploreembedded.com/wiki
- * Description: File contains the the accessing the GPIO pins of a controller.
+ * Description: File contains the functions for accessing the GPIO pins of a controller.
                 First the GPIO pins needs to configured(Input/Output) and later used accordingly.
 
 The libraries have been tested on ExploreEmbedded development boards. We strongly believe that the 
