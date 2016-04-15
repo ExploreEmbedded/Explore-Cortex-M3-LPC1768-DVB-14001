@@ -1,12 +1,12 @@
 /***************************************************************************************************
                                    ExploreEmbedded    
-****************************************************************************************************
+ ****************************************************************************************************
  * File:   main.c
  * Version: 16.0
  * Author: ExploreEmbedded
  * Website: http://www.exploreembedded.com/wiki
  * Description: File contains the example program for configuring and using the external interrupt functions.
-                 
+
 
 The libraries have been tested on ExploreEmbedded development boards. We strongly believe that the 
 library works on any of development boards for respective controllers. However, ExploreEmbedded 
@@ -30,7 +30,7 @@ GNU GENERAL PUBLIC LICENSE:
     along with this program.  If not, see <http://www.gnu.org/licenses/>. 
 
 Errors and omissions should be reported to codelibraries@exploreembedded.com
-**************************************************************************************************/
+ **************************************************************************************************/
 
 
 #include <lpc17xx.h>
@@ -41,15 +41,14 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 #define LED1      P2_0
 #define LED2      P2_1
 
-
 void myExtIntrIsr_0(void)
 {
-   GPIO_PinToggle(LED1); /* Toggle the LED1 (P2_0) */ 
+    GPIO_PinToggle(LED1); /* Toggle the LED1 (P2_0) */ 
 }
 
 void myExtIntrIsr_1(void)
 {
-   GPIO_PinToggle(LED2); /* Toggle the LED1 (P2_0) */ 
+    GPIO_PinToggle(LED2); /* Toggle the LED2 (P2_1) */ 
 }
 
 
@@ -58,13 +57,11 @@ int main (void)
     SystemInit();
 
     GPIO_PinDirection(LED1,OUTPUT);        /* Configure the pins as Output to blink the Leds*/
-	GPIO_PinDirection(LED2,OUTPUT);
+    GPIO_PinDirection(LED2,OUTPUT);
 
+    EINT_AttachInterrupt(EINT0,myExtIntrIsr_0,FALLING);   /* myExtIntrIsr_0 will be called by EINT0_IRQHandler */
+    EINT_AttachInterrupt(EINT1,myExtIntrIsr_1,FALLING);   /* myExtIntrIsr_1 will be called by EINT1_IRQHandler */
 
-	EINT_AttachInterrupt(EINT_INT0,EINT_FALLING_EDGE,myExtIntrIsr_0);  /* myExtIntrIsr_0 will be called by EINT0_IRQHandler */
-	EINT_AttachInterrupt(EINT_INT1,EINT_FALLING_EDGE,myExtIntrIsr_1);  /* myExtIntrIsr_1 will be called by EINT1_IRQHandler */
-
-  
     while(1)
     {
         //do nothing

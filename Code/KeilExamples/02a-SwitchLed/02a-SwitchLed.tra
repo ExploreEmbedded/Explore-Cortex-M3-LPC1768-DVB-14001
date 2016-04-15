@@ -1,0 +1,22 @@
+*** Creating Trace Output File '02a-SwitchLed.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "gpio.o" "system_lpc17xx.o" --strict --scatter "02a-SwitchLed.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\02a-SwitchLed.map" -o "02a-SwitchLed.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '02a-SwitchLed.axf'
+### ADS-LD Command File: '02a-SwitchLed.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '02a-SwitchLed.lnp', Handle=0x0000019C
+### Writing '.lnp' file
+### ADS-LD Command file '02a-SwitchLed.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

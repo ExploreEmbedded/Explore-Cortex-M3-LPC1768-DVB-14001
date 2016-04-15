@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\GitHub\LPC1768\Explore-Cortex-M3-LPC1768-DVB-14001\Code\KeilExamples\14a-OLED_Display\14a-OLED_Display.uvproj
+Project File Date:  04/02/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+startup_LPC17xx.s: ARM Assembler, 4.1 [Build 561] 
+startup_LPC17xx.s: Error: A9932E: MISSING DEVICE (R003: SECURITY KEY NOT FOUND)
+Target not created
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+startup_LPC17xx.s: ARM Assembler, 4.1 [Build 561] 
+startup_LPC17xx.s: Error: A9932E: MISSING DEVICE (R003: SECURITY KEY NOT FOUND)
+Target not created

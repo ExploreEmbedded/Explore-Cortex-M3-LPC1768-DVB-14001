@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "gpio.o" "system_lpc17xx.o" --strict --scatter "02a-SwitchLed.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\02a-SwitchLed.map" -o "02a-SwitchLed.axf"

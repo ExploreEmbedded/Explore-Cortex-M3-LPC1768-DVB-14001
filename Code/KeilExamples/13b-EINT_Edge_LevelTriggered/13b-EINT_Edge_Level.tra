@@ -1,0 +1,25 @@
+*** Creating Trace Output File '13b-EINT_Edge_Level.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"extintr.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"softi2c.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"delay.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "extintr.o" "gpio.o" "lcd.o" "softi2c.o" "system_lpc17xx.o" "delay.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\13b-EINT_Edge_Level.map" -o "13b-EINT_Edge_Level.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '13b-EINT_Edge_Level.axf'
+### ADS-LD Command File: '13b-EINT_Edge_Level.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '13b-EINT_Edge_Level.lnp', Handle=0x0000073C
+### Writing '.lnp' file
+### ADS-LD Command file '13b-EINT_Edge_Level.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

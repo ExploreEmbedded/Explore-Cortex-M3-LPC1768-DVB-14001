@@ -1,0 +1,65 @@
+Dependencies for Project '13b-EINT_Edge_Level', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x4CCA6EB2)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx--pd "__UVISION_VERSION SETA 517"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\main.c)(0x570E49C1)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+I (..\00-libfiles\stdutils.h)(0x56F8D71F)
+I (..\00-libfiles\gpio.h)(0x56FA46BE)
+I (..\00-libfiles\extintr.h)(0x570E48B9)
+I (..\00-libfiles\lcd.h)(0x56DEB9CF)
+F (..\00-libfiles\extintr.c)(0x570E48AD)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\extintr.o --omf_browse .\extintr.crf --depend .\extintr.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+I (..\00-libfiles\extintr.h)(0x570E48B9)
+I (..\00-libfiles\stdutils.h)(0x56F8D71F)
+I (..\00-libfiles\gpio.h)(0x56FA46BE)
+F (..\00-libfiles\gpio.c)(0x56FA46B0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+I (..\00-libfiles\stdutils.h)(0x56F8D71F)
+I (..\00-libfiles\gpio.h)(0x56FA46BE)
+F (..\00-libfiles\lcd.c)(0x56E11CB7)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB4EA6)
+I (..\00-libfiles\delay.h)(0x56F8D587)
+I (..\00-libfiles\lcd.h)(0x56DEB9CF)
+I (..\00-libfiles\stdutils.h)(0x56F8D71F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (..\00-libfiles\gpio.h)(0x56FA46BE)
+F (..\00-libfiles\softi2c.c)(0x56E2937F)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\softi2c.o --omf_browse .\softi2c.crf --depend .\softi2c.d)
+I (..\00-libfiles\gpio.h)(0x56FA46BE)
+I (..\00-libfiles\stdutils.h)(0x56F8D71F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (..\00-libfiles\delay.h)(0x56F8D587)
+I (..\00-libfiles\softi2c.h)(0x56E90F47)
+F (..\00-libfiles\system_LPC17xx.c)(0x56DEABFF)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+F (..\00-libfiles\delay.c)(0x56F8D577)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\00-libfiles-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+I (..\00-libfiles\delay.h)(0x56F8D587)
+F (..\00-libfiles\delay.h)(0x56F8D587)()
+F (..\00-libfiles\extintr.h)(0x570E48B9)()
+F (..\00-libfiles\gpio.h)(0x56FA46BE)()
+F (..\00-libfiles\lcd.h)(0x56DEB9CF)()
+F (..\00-libfiles\stdutils.h)(0x56F8D71F)()

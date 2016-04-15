@@ -1,0 +1,9 @@
+.\timer.o: ..\00-libfiles\timer.c
+.\timer.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h
+.\timer.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\timer.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\timer.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\timer.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\timer.o: ..\00-libfiles\timer.h
+.\timer.o: ..\00-libfiles\stdutils.h

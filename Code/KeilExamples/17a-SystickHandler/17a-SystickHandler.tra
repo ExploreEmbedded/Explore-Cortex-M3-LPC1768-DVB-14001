@@ -1,0 +1,23 @@
+*** Creating Trace Output File '17a-SystickHandler.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"systick.o"'
+### List of Objects: adding '"uart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "gpio.o" "system_lpc17xx.o" "systick.o" "uart.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\17a-SystickHandler.map" -o "17a-SystickHandler.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '17a-SystickHandler.axf'
+### ADS-LD Command File: '17a-SystickHandler.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '17a-SystickHandler.lnp', Handle=0x0000032C
+### Writing '.lnp' file
+### ADS-LD Command file '17a-SystickHandler.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

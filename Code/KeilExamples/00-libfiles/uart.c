@@ -217,7 +217,7 @@ void UART_TxChar(uint8_t v_uartChannel_u8, char v_uartData_u8)
                1.The ptr_stringPointer_u8 points to the first char of the string
                     and traverses till the end(NULL CHAR) and transmits a char each time
  ***************************************************************************************************/
-#if (Enable_UART_TxString==1)
+#if ((Enable_UART_TxString==1)|| (Enable_UART_Printf == 1))
 void UART_TxString(uint8_t v_uartChannel_u8, char *ptr_stringPointer_u8)
 {
     while(*ptr_stringPointer_u8)
@@ -231,15 +231,15 @@ void UART_TxString(uint8_t v_uartChannel_u8, char *ptr_stringPointer_u8)
 
 
 /***************************************************************************************************
-                         void UART_RxString(char *ptr_stringPointer_u8)
+                         uint8_t UART_RxString(uint8_t v_uartChannel_u8, char *ptr_string)
  ****************************************************************************************************
  * I/P Arguments: char *:  Address of the string/buffer where the received data needs to be stored
- * Return value    : none
+ * Return value	: uint8_t: Number of chars received.
 
  * description  :
               1.This function is used to receive a ASCII string through UART till the carriage_return/New_line
               2.The stream of data is copied to the buffer till carriage_return/New_line is encountered.
-              3. Once the Carriage_return/New_Line is received the string will be null terminated.
+			  3. Once the Carriage_return/New_Line is received the string will be null terminated.
 
  *****NOTE*******:
   1.The received char is ECHOED back,
@@ -451,17 +451,20 @@ void UART_TxFloatNumber(uint8_t v_uartChannel_u8, float v_floatNumber_f32)
                  10. %X: 32-bit hexadecimal number
                  11. %s: String
 
-
+  Note: By default all the functions will be disabled. The required functions can be enabled by 
+        setting the respective compiler switch to 1 in uart.h file.
+		Ex:  setting Enable_UART_TxDecimalNumber to 1 will enable %d
+		     setting Enable_UART_TxHexNumber to 1 will enable %x
 
   Extra feature is available to specify the number of digits to be transmitted using printf.
-     ex: %4d: will transmit the lower four digits of the decimal number.
-         %12b: will transmit the 12-LSB of the number
-         %d: Will transmit the exact digits of the number
-
-#####: In case of printing the 8-bit variables, it is recommended to type cast and promote them to uint16_t.
+	 ex: %4d: will transmit the lower four digits of the decimal number.
+	     %12b: will transmit the 12-LSB of the number
+		 %d: Will transmit the exact digits of the number
+		 
+#####: In case of printing the variables(8-bit) its recommended to type cast and promote them to uint16_t.
         uint8_t v_Num_u8;
-        LCD_Printf("num1:%u",(uint16_t)v_Num_u8);         
- ***************************************************************************************************/
+		UART_Printf("num1:%u",(uint16_t)v_Num_u8); 		 
+***************************************************************************************************/
 #if ( Enable_UART_Printf   == 1 ) 
 void UART_Printf(uint8_t v_uartChannel_u8, const char *argList, ...)
 {

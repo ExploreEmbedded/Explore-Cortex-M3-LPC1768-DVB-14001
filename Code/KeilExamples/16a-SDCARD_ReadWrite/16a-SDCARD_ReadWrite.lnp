@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\delay.o"
+".\fat32.o"
+".\gpio.o"
+".\sdcard.o"
+".\spi.o"
+".\system_lpc17xx.o"
+".\uart.o"
+".\main.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\16a-SDCARD_ReadWrite.map" -o .\16a-SDCARD_ReadWrite.axf

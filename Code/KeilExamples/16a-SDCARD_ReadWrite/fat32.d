@@ -1,0 +1,13 @@
+.\fat32.o: ..\00-libfiles\fat32.c
+.\fat32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\fat32.o: ..\00-libfiles\stdutils.h
+.\fat32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\fat32.o: ..\00-libfiles\fat32.h
+.\fat32.o: ..\00-libfiles\uart.h
+.\fat32.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h
+.\fat32.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\fat32.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\fat32.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\fat32.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\fat32.o: ..\00-libfiles\gpio.h
+.\fat32.o: ..\00-libfiles\sdcard.h

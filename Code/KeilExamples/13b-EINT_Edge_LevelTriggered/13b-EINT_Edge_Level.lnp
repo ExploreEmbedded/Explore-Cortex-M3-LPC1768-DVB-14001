@@ -1,0 +1,12 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\main.o"
+".\extintr.o"
+".\gpio.o"
+".\lcd.o"
+".\softi2c.o"
+".\system_lpc17xx.o"
+".\delay.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\13b-EINT_Edge_Level.map" -o .\13b-EINT_Edge_Level.axf

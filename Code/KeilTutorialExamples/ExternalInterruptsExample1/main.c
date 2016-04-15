@@ -6,8 +6,8 @@
 #define LED1            0   
 #define LED2            1    
 
-#define SBIT_EINT0	    0
-#define SBIT_EINT1	    1  
+#define SBIT_EINT0      0
+#define SBIT_EINT1      1  
 
 #define SBIT_EXTMODE0   0
 #define SBIT_EXTMODE1   1

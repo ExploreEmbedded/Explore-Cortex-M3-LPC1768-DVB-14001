@@ -34,8 +34,8 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 **************************************************************************************************/
 
 
-#ifndef _TIMERS_H_
-#define _TIMERS_H_
+#ifndef _EXT_INTERRUPTS_H_
+#define _EXT_INTERRUPTS_H_
 
 
 #include <LPC17xx.h>
@@ -48,17 +48,16 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 /*************************************************************************************************
                          Costants, Structures and Typedefs for timers 							   
 **************************************************************************************************/
-#define EINT_INT0          0
-#define EINT_INT1          1
-#define EINT_INT2          2
-#define EINT_INT3          3
-#define EINT_MAX           4
+#define EINT0          0
+#define EINT1          1
+#define EINT2          2
+#define EINT3          3
+#define EINT_MAX       4
 
-
-#define EINT_RISING_EDGE   0
-#define EINT_FALLING_EDGE  1
-#define EINT_ACTIVE_HIGH   2
-#define EINT_ACTIVE_LOW    3
+//#define LOW     0 already defined in stdutils.h 
+//#define HIGH    1
+#define FALLING 2
+#define RISING  3
 
 typedef void (*extnIntrFunPtr)(void);
 
@@ -77,7 +76,7 @@ typedef struct
 /*************************************************************************************************
                                 Function Prototypes 							   
 *************************************************************************************************/
-void EINT_AttachInterrupt(uint8_t intNumber_u8, uint8_t intType_u8, extnIntrFunPtr funPtr);
+void EINT_AttachInterrupt(uint8_t intNumber_u8, extnIntrFunPtr funPtr, uint8_t intMode_u8);
 void EINT_Enable(uint8_t timerNumber_u8);
 void EINT_Disable(uint8_t timerNumber_u8);     
 /*************************************************************************************************/    

@@ -1,0 +1,10 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\main.o"
+".\extintr.o"
+".\gpio.o"
+".\system_lpc17xx.o"
+--strict --scatter ".\13a-EINT_Leds.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\13a-EINT_Leds.map" -o .\13a-EINT_Leds.axf

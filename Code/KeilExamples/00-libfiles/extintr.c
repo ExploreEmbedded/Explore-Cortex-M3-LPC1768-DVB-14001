@@ -54,20 +54,20 @@ eintConfig_t EintConfigTable[EINT_MAX] =
 
 
 /***************************************************************************************************
-     void EINT_AttachInterrupt(uint8_t intNumber_u8, uint8_t intType_u8, extnIntrFunPtr funPtr)
+    void EINT_AttachInterrupt(uint8_t intNumber_u8, extnIntrFunPtr funPtr, uint8_t intMode_u8)
 *****************************************************************************************************
  * I/P Arguments: 
-                uint8_t: One of the below EINT number(EINT_INT0-EINT_INT3) that needs to be enabled.
- * EINT_INT0 
- * EINT_INT1 
- * EINT_INT2 
- * EINT_INT3 
+                uint8_t: One of the below EINT number(EINT0-EINT3) that needs to be enabled.
+                         * EINT0 
+                         * EINT1 
+                         * EINT2 
+                         * EINT3 
 
                 uint8_t: Type of the interrupt from the below options
- * EINT_RISING_EDGE 
- * EINT_FALLING_EDGE
- * EINT_ACTIVE_HIGH 
- * EINT_ACTIVE_LOW                  
+                        * LOW 
+                        * HIGH
+                        * FALLING 
+                        * RISING                  
 
                extnIntrFunPtr: Function name thats needs to be called by the ISR.
                               The function parameter and return type should be void as shown below.
@@ -78,40 +78,38 @@ eintConfig_t EintConfigTable[EINT_MAX] =
  * description :
                 This function enables the EINTx for Edge/level triggerd as per the request.
                 After configuring the EINTx, it attaches/hookes the user callback function to ISR.
-                Ever time the interrupt occurs the ISR will call the user CallBack function.                 
+                Ever time the interrupt occurs the ISR will call the user CallBack function.                  
 *****************************************************************************************************/
-void EINT_AttachInterrupt(uint8_t intNumber_u8, uint8_t intType_u8, extnIntrFunPtr funPtr)
+void EINT_AttachInterrupt(uint8_t intNumber_u8, extnIntrFunPtr funPtr, uint8_t intMode_u8)
 {
     if(intNumber_u8<EINT_MAX)
     {
         GPIO_PinFunction(EintConfigTable[intNumber_u8].pinumber,PINSEL_FUNC_1);
         NVIC_EnableIRQ(EintConfigTable[intNumber_u8].IrqNumber);
         EintConfigTable[intNumber_u8].userFunction = funPtr; 
-        switch(intType_u8)
-        {
-        case EINT_RISING_EDGE:
-            util_BitSet(LPC_SC->EXTMODE,intNumber_u8);
-            util_BitSet(LPC_SC->EXTPOLAR,intNumber_u8);
-            break; 
-
-        case EINT_FALLING_EDGE:
-            util_BitSet(LPC_SC->EXTMODE,intNumber_u8);
+        switch(intMode_u8)
+        {            
+        case LOW:
+            util_BitClear(LPC_SC->EXTMODE,intNumber_u8);
             util_BitClear(LPC_SC->EXTPOLAR,intNumber_u8);
             break; 
-
-        case EINT_ACTIVE_HIGH:
+            
+        case HIGH:
             util_BitClear(LPC_SC->EXTMODE,intNumber_u8);
             util_BitSet(LPC_SC->EXTPOLAR,intNumber_u8);
             break; 
 
-        case EINT_ACTIVE_LOW:
-            util_BitClear(LPC_SC->EXTMODE,intNumber_u8);
+        case FALLING:
+            util_BitSet(LPC_SC->EXTMODE,intNumber_u8);
             util_BitClear(LPC_SC->EXTPOLAR,intNumber_u8);
             break; 
-
+            
+        case RISING:
+            util_BitSet(LPC_SC->EXTMODE,intNumber_u8);
+            util_BitSet(LPC_SC->EXTPOLAR,intNumber_u8);
+            break; 
         }
     }
-
 }
 
 
@@ -162,40 +160,40 @@ void EINT_DetachInterrupt(uint8_t intNumber_u8)
 *****************************************************************************************************/
 void EINT0_IRQHandler(void)
 {
-    util_BitSet(LPC_SC->EXTINT, EINT_INT0);  /* Clear Interrupt Flag */
-    if(EintConfigTable[EINT_INT0].userFunction != NULL)
+    util_BitSet(LPC_SC->EXTINT, EINT0);  /* Clear Interrupt Flag */
+    if(EintConfigTable[EINT0].userFunction != NULL)
     {
-        EintConfigTable[EINT_INT0].userFunction();
+        EintConfigTable[EINT0].userFunction();
     }
 }
 
 
 void EINT1_IRQHandler(void)
 {
-    util_BitSet(LPC_SC->EXTINT, EINT_INT1);  /* Clear Interrupt Flag */
-    if(EintConfigTable[EINT_INT1].userFunction != NULL)
+    util_BitSet(LPC_SC->EXTINT, EINT1);  /* Clear Interrupt Flag */
+    if(EintConfigTable[EINT1].userFunction != NULL)
     {
-        EintConfigTable[EINT_INT1].userFunction();
+        EintConfigTable[EINT1].userFunction();
     }
 }
 
 
 void EINT2_IRQHandler(void)
 {
-    util_BitSet(LPC_SC->EXTINT, EINT_INT2);  /* Clear Interrupt Flag */
-    if(EintConfigTable[EINT_INT2].userFunction != NULL)
+    util_BitSet(LPC_SC->EXTINT, EINT2);  /* Clear Interrupt Flag */
+    if(EintConfigTable[EINT2].userFunction != NULL)
     {
-        EintConfigTable[EINT_INT2].userFunction();
+        EintConfigTable[EINT2].userFunction();
     }
 }
 
 
 void EINT3_IRQHandler(void)
 {
-    util_BitSet(LPC_SC->EXTINT, EINT_INT3);  /* Clear Interrupt Flag */
-    if(EintConfigTable[EINT_INT3].userFunction != NULL)
+    util_BitSet(LPC_SC->EXTINT, EINT3);  /* Clear Interrupt Flag */
+    if(EintConfigTable[EINT3].userFunction != NULL)
     {
-        EintConfigTable[EINT_INT3].userFunction();
+        EintConfigTable[EINT3].userFunction();
     }
 }
 

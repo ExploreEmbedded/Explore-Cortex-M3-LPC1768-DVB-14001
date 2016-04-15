@@ -329,7 +329,7 @@ void EEPROM_ReadNBytes(uint16_t v_eepromAddress_16, uint8_t *ptr_ramAddress_u8, 
    NOTE: Null char is also written into the eeprom.
 ***************************************************************************************************/
 #if ( ENABLE_EEPROM_WriteString == 1)
-void EEPROM_WriteString(uint16_t v_eepromAddress_u16, char *ptr_string_u8)
+void EEPROM_WriteString(uint16_t v_eepromAddress_u16, uint8_t *ptr_string_u8)
 {
     do
     {
@@ -355,7 +355,7 @@ void EEPROM_ReadString(uint16_t v_eepromAddress_u16, char *ptr_destStringAddress
            The string read from eeprom will be copied to specified buffer along with NULL character
 ****************************************************************************************************/
 #if ( ENABLE_EEPROM_ReadString == 1)
-void EEPROM_ReadString(uint16_t v_eepromAddress_u16, char *ptr_destStringAddress_u8)
+void EEPROM_ReadString(uint16_t v_eepromAddress_u16, uint8_t *ptr_destStringAddress_u8)
 {
     char eeprom_data;
 

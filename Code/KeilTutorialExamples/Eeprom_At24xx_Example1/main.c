@@ -1,11 +1,12 @@
 /***************************************************************************************************
                                    ExploreEmbedded
-****************************************************************************************************
+ ****************************************************************************************************
  * File:   main.c
  * Version: 16.0
  * Author: ExploreEmbedded
  * Website: http://www.exploreembedded.com/wiki
- * Description: This file contains the program to demonstrate the LED blinking. 
+ * Description: This file contains the program to write A-Z at memory location 0x00 and read it back.
+ *              The data read and written is transmitted on UART.  
 
 The libraries have been tested on ExploreEmbedded development boards. We strongly believe that the
 library works on any of development boards for respective controllers. However, ExploreEmbedded
@@ -32,38 +33,30 @@ GNU GENERAL PUBLIC LICENSE:
 
 
 Errors and omissions should be reported to codelibraries@exploreembedded.com
-**************************************************************************************************/
+ **************************************************************************************************/
+#include "LPC17xx.h"
+#include "uart.h"
+#include "eeprom.h"
+#include "gpio.h"
 
-
-#include <pic16f877a.h>
-
-void DELAY_ms(unsigned int ms_Count)
-{
-    unsigned int i,j;
-    for(i=0;i<ms_Count;i++)
-    {
-        for(j=0;j<100;j++);
-    }
-}
+/* start the main program */
 int main() 
 {
-    unsigned char count = 0;
-  /* Configure all the ports as Output */
-    TRISA = 0x00;
-    TRISB = 0x00;
-    TRISC = 0x00;
-    TRISD = 0x00; 
-    
-    while(1)
+    unsigned char eeprom_address = 0x00, write_char = 'A', read_char;
+    SystemInit();
+    UART0_Init(9600);
+
+    /* Eeprom IC:AT24C16   SDA:P2_0    SCL:P2_1 */        
+    EEPROM_Init(AT24C16,P2_0,P2_1);
+
+    for(write_char='A';write_char<='Z';write_char++)
     {
-        PORTA = count; /* Display the count value on Leds connected to Ports */
-        PORTB = count;
-        PORTC = count;
-        PORTD = count;
-        DELAY_ms(500);
-        count++;       /* Increment the Counter value */
+        UART0_Printf("Eeprom Write: %c    ",write_char); //Print the message on UART
+        EEPROM_WriteByte(eeprom_address, write_char);    // Write the data at memoryLocation    0x00  
+
+        read_char = EEPROM_ReadByte(eeprom_address);     // Read the data from memoryLocation 0x00
+        UART0_Printf("Eeprom Read: %c\n\r",read_char);   //Print the message on UART
     }
 
-    return (0);
+    while (1);    
 }
-

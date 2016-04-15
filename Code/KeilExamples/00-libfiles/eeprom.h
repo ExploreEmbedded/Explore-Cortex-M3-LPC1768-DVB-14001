@@ -88,8 +88,8 @@ void EEPROM_WriteByte(uint16_t v_eepromAddress_u16, uint8_t v_eepromData_u8);
 uint8_t EEPROM_ReadByte(uint16_t v_eepromAddress_u16);
 void EEPROM_WriteNBytes(uint16_t v_eepromAddress_u16, uint8_t *ptr_ramAddress_u8, uint16_t v_numOfBytes_u16);
 void EEPROM_ReadNBytes(uint16_t v_eepromAddress_16, uint8_t *ptr_ramAddress_u8, uint16_t v_numOfBytes_u16);
-void EEPROM_WriteString(uint16_t v_eepromAddress_u16, char *ptr_string_u8);
-void EEPROM_ReadString(uint16_t v_eepromAddress_u16, char *ptr_destStringAddress_u8);
+void EEPROM_WriteString(uint16_t v_eepromAddress_u16, uint8_t *ptr_string_u8);
+void EEPROM_ReadString(uint16_t v_eepromAddress_u16, uint8_t *ptr_destStringAddress_u8);
 void EEPROM_Erase(void);
 /**************************************************************************************************/
 

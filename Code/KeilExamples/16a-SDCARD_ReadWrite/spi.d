@@ -1,0 +1,10 @@
+.\spi.o: ..\00-libfiles\spi.c
+.\spi.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h
+.\spi.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\spi.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\spi.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\spi.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\spi.o: ..\00-libfiles\spi.h
+.\spi.o: ..\00-libfiles\stdutils.h
+.\spi.o: ..\00-libfiles\gpio.h

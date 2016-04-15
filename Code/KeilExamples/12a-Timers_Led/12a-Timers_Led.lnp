@@ -1,0 +1,10 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\main.o"
+".\gpio.o"
+".\system_lpc17xx.o"
+".\timer.o"
+--strict --scatter ".\12a-Timers_Led.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\12a-Timers_Led.map" -o .\12a-Timers_Led.axf

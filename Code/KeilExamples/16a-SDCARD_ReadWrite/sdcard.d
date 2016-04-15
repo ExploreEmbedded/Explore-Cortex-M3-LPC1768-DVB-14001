@@ -1,0 +1,13 @@
+.\sdcard.o: ..\00-libfiles\sdcard.c
+.\sdcard.o: ..\00-libfiles\spi.h
+.\sdcard.o: ..\00-libfiles\stdutils.h
+.\sdcard.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\sdcard.o: ..\00-libfiles\sdcard.h
+.\sdcard.o: ..\00-libfiles\uart.h
+.\sdcard.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h
+.\sdcard.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\sdcard.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\sdcard.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\sdcard.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\sdcard.o: ..\00-libfiles\gpio.h
+.\sdcard.o: ..\00-libfiles\fat32.h
