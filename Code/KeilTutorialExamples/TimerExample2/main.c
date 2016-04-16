@@ -48,7 +48,7 @@ void  myTimerIsr_0(void)
 
 void  myTimerIsr_1(void)
 {
-    GPIO_PinToggle(LED2); /* Toggle the LED1 (P2_0) */ 
+    GPIO_PinToggle(LED2); /* Toggle the LED1 (P2_1) */ 
 }
 
 

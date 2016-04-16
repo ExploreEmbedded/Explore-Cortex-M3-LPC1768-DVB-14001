@@ -31,24 +31,24 @@ GNU GENERAL PUBLIC LICENSE:
 
 Errors and omissions should be reported to codelibraries@exploreembedded.com
 **************************************************************************************************/
-#ifndef _TIMERS_H_
-#define _TIMERS_H_
+#ifndef _SYSTICK_TIMERS_H_
+#define _SYSTICK_TIMERS_H_
 
 
 #include "LPC17xx.h"
 #include "stdutils.h"
 
 /*************************************************************************************************
-                             SysTick SFR's and its bits							   
+                             SysTick SFR's and its bits                               
 **************************************************************************************************/
 #define SBIT_ENABLE     0
 #define SBIT_TICKINT    1
 #define SBIT_CLKSOURCE  2
 
       /* Systick Register address, refer datasheet for more info */
-#define SYSTICK_CTRL		(*( ( volatile unsigned long *) 0xE000E010 ))
-#define SYSTICK_RELOAD		(*( ( volatile unsigned long *) 0xE000E014 ))
-#define SYSTICK_CURR		(*( ( volatile unsigned long *) 0xE000E018 ))
+#define STCTRL      (*( ( volatile unsigned long *) 0xE000E010 ))
+#define STRELOAD    (*( ( volatile unsigned long *) 0xE000E014 ))
+#define STCURR      (*( ( volatile unsigned long *) 0xE000E018 ))
 
 /* 100000000Mhz * 1us = 100 */
 #define COUNT_PER_US  100
@@ -64,7 +64,7 @@ typedef void (*sysTickCallBackFunPtr)(void);
 
 
 /*************************************************************************************************
-                                Function Prototypes 							   
+                                Function Prototypes                                
 *************************************************************************************************/
 void SysTick_Init(void);
 void SysTick_Start(void);

@@ -59,7 +59,7 @@ sysTickCallBackFunPtr sysTickCallBack = NULL;
 ****************************************************************************************************/
 void SysTick_Init(void)
 {   
-    SYSTICK_RELOAD = COUNT_PER_MS;
+    STRELOAD = COUNT_PER_MS;
 }
 
 
@@ -78,7 +78,7 @@ void SysTick_Init(void)
 ****************************************************************************************************/
 void SysTick_Start(void)
 {
-    SYSTICK_CTRL = (1<<SBIT_ENABLE) | (1<<SBIT_TICKINT) | (1<<SBIT_CLKSOURCE);
+    STCTRL = (1<<SBIT_ENABLE) | (1<<SBIT_TICKINT) | (1<<SBIT_CLKSOURCE);
 }
 
 
@@ -97,7 +97,7 @@ void SysTick_Start(void)
 ****************************************************************************************************/
 void SysTick_Stop(void)
 {
-  SYSTICK_CTRL = 0x00;
+  STCTRL = 0x00;
 }
 
 
@@ -167,7 +167,7 @@ uint32_t SysTick_GetMsTime(void)
 uint32_t SysTick_GetUsTime(void)
 {
     uint32_t usTime;
-   usTime = (V_SysTickMiliSecCount_U32 * 1000) + ((COUNT_PER_MS-SYSTICK_CURR) / COUNT_PER_US); 
+   usTime = (V_SysTickMiliSecCount_U32 * 1000) + ((COUNT_PER_MS-STCURR) / COUNT_PER_US); 
    return usTime;
 }
 

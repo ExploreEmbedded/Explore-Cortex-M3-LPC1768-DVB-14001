@@ -232,7 +232,7 @@ void TIMER_SetTime(uint8_t timerNumber_u8, uint32_t timerIntervalInUs_u32)
 ****************************************************************************************************/
 void TIMER0_IRQHandler(void)
 {
-    util_BitSet(LPC_TIM0->IR, TIMER_0);  /* Clear Interrupt Flag */
+    util_BitSet(LPC_TIM0->IR, SBIT_MR0I);  /* Clear Interrupt Flag */
 
     if(TimerConfigTable[TIMER_0].userFunction!=NULL)
     {
@@ -243,7 +243,7 @@ void TIMER0_IRQHandler(void)
 
 void TIMER1_IRQHandler(void)
 {
-    util_BitSet(LPC_TIM1->IR, TIMER_1);  /* Clear Interrupt Flag */
+    util_BitSet(LPC_TIM1->IR, SBIT_MR0I);  /* Clear Interrupt Flag */
 
     if(TimerConfigTable[TIMER_1].userFunction!=NULL)
     {
@@ -254,7 +254,7 @@ void TIMER1_IRQHandler(void)
 
 void TIMER2_IRQHandler(void)
 {
-    util_BitSet(LPC_TIM2->IR, TIMER_2);  /* Clear Interrupt Flag */
+    util_BitSet(LPC_TIM2->IR, SBIT_MR0I);  /* Clear Interrupt Flag */
 
     if(TimerConfigTable[TIMER_2].userFunction!=NULL)
     {
@@ -265,7 +265,7 @@ void TIMER2_IRQHandler(void)
 
 void TIMER3_IRQHandler(void)
 {
-    util_BitSet(LPC_TIM3->IR, TIMER_3);  /* Clear Interrupt Flag */
+    util_BitSet(LPC_TIM3->IR, SBIT_MR0I);  /* Clear Interrupt Flag */
 
    if(TimerConfigTable[TIMER_3].userFunction!=NULL)
    {
@@ -328,7 +328,7 @@ uint32_t getPrescalarForUs(uint8_t timerPclkBit_u8)
         break;
     }
 
-    prescalarForUs =pclk/1000000;                      /* Prescalar for 1us (1000000Counts/sec) */
+    prescalarForUs =pclk/1000000 -1;                    /* Prescalar for 1us (1000000Counts/sec) */
 
     return prescalarForUs;
 }
