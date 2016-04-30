@@ -1,0 +1,135 @@
+Dependencies for Project '18a-USB_VirtualCom', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x531FDF50)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx--pd "__UVISION_VERSION SETA 517"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (..\00-libfiles\system_LPC17xx.c)(0x57188D73)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+F (.\main.c)(0x5718D425)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+I (..\00-libfiles\usblib\usbserial.h)(0x571867F5)
+I (..\00-libfiles\stdutils.h)(0x56F8D71F)
+I (..\00-libfiles\gpio.h)(0x56FA46BE)
+I (..\00-libfiles\delay.h)(0x56F8D587)
+I (..\00-libfiles\usblib\usb.h)(0x56D19BB5)
+I (..\00-libfiles\usblib\usbcfg.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbhw.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbcore.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\cdc.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\cdcuser.h)(0x517F6F6C)
+F (..\00-libfiles\gpio.c)(0x56FA46B0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+I (..\00-libfiles\stdutils.h)(0x56F8D71F)
+I (..\00-libfiles\gpio.h)(0x56FA46BE)
+F (..\00-libfiles\gpio.h)(0x56FA46BE)()
+F (..\00-libfiles\delay.h)(0x56F8D587)()
+F (..\00-libfiles\delay.c)(0x5718D373)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+I (..\00-libfiles\delay.h)(0x56F8D587)
+F (..\00-libfiles\stdutils.h)(0x56F8D71F)()
+F (..\00-libfiles\usblib\usbcore.c)(0x517F6F6C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\usbcore.o --omf_browse .\objects\usbcore.crf --depend .\objects\usbcore.d)
+I (..\00-libfiles\usblib\type.h)(0x517F6F6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (..\00-libfiles\usblib\usb.h)(0x56D19BB5)
+I (..\00-libfiles\usblib\usbcfg.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbhw.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbcore.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbdesc.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbuser.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\cdc.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\cdcuser.h)(0x517F6F6C)
+F (..\00-libfiles\usblib\usbdesc.c)(0x517F6F6C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\usbdesc.o --omf_browse .\objects\usbdesc.crf --depend .\objects\usbdesc.d)
+I (..\00-libfiles\usblib\type.h)(0x517F6F6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (..\00-libfiles\usblib\usb.h)(0x56D19BB5)
+I (..\00-libfiles\usblib\cdc.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbcfg.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbdesc.h)(0x517F6F6C)
+F (..\00-libfiles\usblib\usbhw.c)(0x57188E2F)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\usbhw.o --omf_browse .\objects\usbhw.crf --depend .\objects\usbhw.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+I (..\00-libfiles\usblib\usb.h)(0x56D19BB5)
+I (..\00-libfiles\usblib\usbcfg.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbreg.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbhw.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbcore.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbuser.h)(0x517F6F6C)
+F (..\00-libfiles\usblib\usbserial.c)(0x5718D195)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\usbserial.o --omf_browse .\objects\usbserial.crf --depend .\objects\usbserial.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB4EA6)
+I (..\00-libfiles\usblib\usbserial.h)(0x571867F5)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+I (..\00-libfiles\stdutils.h)(0x56F8D71F)
+I (..\00-libfiles\gpio.h)(0x56FA46BE)
+I (..\00-libfiles\usblib\usb.h)(0x56D19BB5)
+I (..\00-libfiles\usblib\usbcfg.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbhw.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbcore.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\cdc.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\cdcuser.h)(0x517F6F6C)
+I (..\00-libfiles\delay.h)(0x56F8D587)
+F (..\00-libfiles\usblib\cdcuser.c)(0x517F6F6C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\cdcuser.o --omf_browse .\objects\cdcuser.crf --depend .\objects\cdcuser.d)
+I (..\00-libfiles\usblib\type.h)(0x517F6F6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (..\00-libfiles\usblib\usb.h)(0x56D19BB5)
+I (..\00-libfiles\usblib\usbhw.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbcfg.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbcore.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\cdc.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\cdcuser.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\serial.h)(0x56D14D97)
+F (..\00-libfiles\usblib\cdc.h)(0x517F6F6C)()
+F (..\00-libfiles\usblib\cdcuser.h)(0x517F6F6C)()
+F (..\00-libfiles\usblib\usb.h)(0x56D19BB5)()
+F (..\00-libfiles\usblib\usbcfg.h)(0x517F6F6C)()
+F (..\00-libfiles\usblib\usbcore.h)(0x517F6F6C)()
+F (..\00-libfiles\usblib\usbdesc.h)(0x517F6F6C)()
+F (..\00-libfiles\usblib\usbhw.h)(0x517F6F6C)()
+F (..\00-libfiles\usblib\usbreg.h)(0x517F6F6C)()
+F (..\00-libfiles\usblib\usbserial.h)(0x571867F5)()
+F (..\00-libfiles\usblib\usbuser.h)(0x517F6F6C)()
+F (..\00-libfiles\usblib\usbuser.c)(0x517F6F6C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\usbuser.o --omf_browse .\objects\usbuser.crf --depend .\objects\usbuser.d)
+I (..\00-libfiles\usblib\type.h)(0x517F6F6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (..\00-libfiles\usblib\usb.h)(0x56D19BB5)
+I (..\00-libfiles\usblib\usbcfg.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbhw.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbcore.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\usbuser.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\cdcuser.h)(0x517F6F6C)
+F (..\00-libfiles\usblib\serial.c)(0x57188C9B)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\00-libfiles -I..\00-libfiles\usblib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="517"-o .\objects\serial.o --omf_browse .\objects\serial.crf --depend .\objects\serial.d)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x531FDFE0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x531FE252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x531FE252)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x531FE252)
+I (C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x531FDFE0)
+I (..\00-libfiles\usblib\type.h)(0x517F6F6C)
+I (..\00-libfiles\usblib\serial.h)(0x56D14D97)
+F (..\00-libfiles\usblib\serial.h)(0x56D14D97)()
+F (..\00-libfiles\usblib\type.h)(0x517F6F6C)()

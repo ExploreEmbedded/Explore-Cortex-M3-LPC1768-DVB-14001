@@ -1,0 +1,10 @@
+.\objects\cdcuser.o: ..\00-libfiles\usblib\cdcuser.c
+.\objects\cdcuser.o: ..\00-libfiles\usblib\type.h
+.\objects\cdcuser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\cdcuser.o: ..\00-libfiles\usblib\usb.h
+.\objects\cdcuser.o: ..\00-libfiles\usblib\usbhw.h
+.\objects\cdcuser.o: ..\00-libfiles\usblib\usbcfg.h
+.\objects\cdcuser.o: ..\00-libfiles\usblib\usbcore.h
+.\objects\cdcuser.o: ..\00-libfiles\usblib\cdc.h
+.\objects\cdcuser.o: ..\00-libfiles\usblib\cdcuser.h
+.\objects\cdcuser.o: ..\00-libfiles\usblib\serial.h

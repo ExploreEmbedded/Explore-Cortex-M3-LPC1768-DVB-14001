@@ -5,7 +5,7 @@
  * Version: 16.0
  * Author: ExploreEmbedded
  * Website: http://www.exploreembedded.com/wiki
- * Description: This file contains the program to read and write RTC(DS1307) date and time, 
+ * Description: This file contains the program to read and write RTC date and time, 
  *              Date and time is set only once in the beginning after that it is continously read and Displayed on LCD
 
 The libraries have been tested on ExploreEmbedded development boards. We strongly believe that the

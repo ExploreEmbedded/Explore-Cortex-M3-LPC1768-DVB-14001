@@ -53,9 +53,9 @@ void DELAY_us(unsigned int count)
 
   for(j=0;j<count;j++)
   {
-    /* At 60Mhz, the below loop introduces
-    DELAY of 10 us */
-    for(i=0;i<25;i++);
+    /* At 100Mhz, the below loop introduces
+    DELAY of 1 us */
+    for(i=0;i<23;i++);
   }
 }
 

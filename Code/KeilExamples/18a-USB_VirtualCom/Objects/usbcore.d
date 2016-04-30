@@ -1,0 +1,11 @@
+.\objects\usbcore.o: ..\00-libfiles\usblib\usbcore.c
+.\objects\usbcore.o: ..\00-libfiles\usblib\type.h
+.\objects\usbcore.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usbcore.o: ..\00-libfiles\usblib\usb.h
+.\objects\usbcore.o: ..\00-libfiles\usblib\usbcfg.h
+.\objects\usbcore.o: ..\00-libfiles\usblib\usbhw.h
+.\objects\usbcore.o: ..\00-libfiles\usblib\usbcore.h
+.\objects\usbcore.o: ..\00-libfiles\usblib\usbdesc.h
+.\objects\usbcore.o: ..\00-libfiles\usblib\usbuser.h
+.\objects\usbcore.o: ..\00-libfiles\usblib\cdc.h
+.\objects\usbcore.o: ..\00-libfiles\usblib\cdcuser.h

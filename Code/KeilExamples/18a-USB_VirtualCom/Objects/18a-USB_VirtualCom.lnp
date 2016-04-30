@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+".\objects\main.o"
+".\objects\gpio.o"
+".\objects\delay.o"
+".\objects\usbcore.o"
+".\objects\usbdesc.o"
+".\objects\usbhw.o"
+".\objects\usbserial.o"
+".\objects\cdcuser.o"
+".\objects\usbuser.o"
+".\objects\serial.o"
+--strict --scatter ".\Objects\18a-USB_VirtualCom.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\18a-USB_VirtualCom.map" -o .\Objects\18a-USB_VirtualCom.axf
