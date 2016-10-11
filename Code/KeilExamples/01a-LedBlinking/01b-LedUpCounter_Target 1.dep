@@ -1,3 +1,0 @@
-Dependencies for Project '01b-LedUpCounter', Target 'Target 1': (DO NOT MODIFY !)
-F (.\startup_LPC17xx.s)(0x4CCA6EB2)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" --list "startup_LPC17xx.lst" --xref -o "startup_LPC17xx.o" --depend "startup_LPC17xx.d")
-F (..\01b-LedUpCounter\main.c)(0x56C705AE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "main.o" --omf_browse "main.crf" --depend "main.d")

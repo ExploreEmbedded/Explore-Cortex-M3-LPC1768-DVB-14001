@@ -1,4 +1,8 @@
---cpu Cortex-M3 "startup_lpc17xx.o" "main.o" "system_lpc17xx.o" --strict --scatter "01a-LedBlinking.sct" 
---autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\01a-LedBlinking.map" -o "01a-LedBlinking.axf"
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\main.o"
+".\system_lpc17xx.o"
+--strict --scatter ".\01a-LedBlinking.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\01a-LedBlinking.map" -o .\01a-LedBlinking.axf

@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\ExploreLPC1768_Board_Test.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\ExploreLPC1768_Board_Test.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060061: Last Updated: Wed Mar 16 17:18:37 2016
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060061: Last Updated: Fri Oct 07 10:19:08 2016
 <BR><P>
 <H3>Maximum Stack Usage =        192 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -490,7 +490,7 @@ Global Symbols
 <LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetAdcValue
 </UL>
 
-<P><STRONG><a name="[58]"></a>GPIO_PinDirection</STRONG> (Thumb, 42 bytes, Stack size 12 bytes, gpio.o(i.GPIO_PinDirection))
+<P><STRONG><a name="[58]"></a>GPIO_PinDirection</STRONG> (Thumb, 46 bytes, Stack size 12 bytes, gpio.o(i.GPIO_PinDirection))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GPIO_PinDirection
 </UL>
 <BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;switch_Test
@@ -501,15 +501,15 @@ Global Symbols
 <LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_BusyCheck
 </UL>
 
-<P><STRONG><a name="[45]"></a>GPIO_PinFunction</STRONG> (Thumb, 60 bytes, Stack size 12 bytes, gpio.o(i.GPIO_PinFunction))
+<P><STRONG><a name="[45]"></a>GPIO_PinFunction</STRONG> (Thumb, 68 bytes, Stack size 12 bytes, gpio.o(i.GPIO_PinFunction))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GPIO_PinFunction
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Init
-<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_SetDutyCycle
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_SetDutyCycle
 <LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetAdcValue
 </UL>
 
-<P><STRONG><a name="[6c]"></a>GPIO_PinRead</STRONG> (Thumb, 38 bytes, Stack size 12 bytes, gpio.o(i.GPIO_PinRead))
+<P><STRONG><a name="[6c]"></a>GPIO_PinRead</STRONG> (Thumb, 42 bytes, Stack size 12 bytes, gpio.o(i.GPIO_PinRead))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GPIO_PinRead
 </UL>
 <BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;switch_Test
@@ -517,7 +517,7 @@ Global Symbols
 <LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_BusyCheck
 </UL>
 
-<P><STRONG><a name="[6b]"></a>GPIO_PinWrite</STRONG> (Thumb, 42 bytes, Stack size 12 bytes, gpio.o(i.GPIO_PinWrite))
+<P><STRONG><a name="[6b]"></a>GPIO_PinWrite</STRONG> (Thumb, 46 bytes, Stack size 12 bytes, gpio.o(i.GPIO_PinWrite))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GPIO_PinWrite
 </UL>
 <BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;switch_Test
@@ -605,27 +605,27 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_Test
 </UL>
 
-<P><STRONG><a name="[59]"></a>PWM_Init</STRONG> (Thumb, 30 bytes, Stack size 4 bytes, pwm.o(i.PWM_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = PWM_Init
-</UL>
-<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Start
-</UL>
-<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pwm_Test
-<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_SetDutyCycle
+<P><STRONG><a name="[5a]"></a>PWM_Init</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, pwm.o(i.PWM_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pwm_Test
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Start
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_SetDutyCycle
 </UL>
 
-<P><STRONG><a name="[5b]"></a>PWM_SetDutyCycle</STRONG> (Thumb, 190 bytes, Stack size 16 bytes, pwm.o(i.PWM_SetDutyCycle))
+<P><STRONG><a name="[59]"></a>PWM_SetDutyCycle</STRONG> (Thumb, 226 bytes, Stack size 16 bytes, pwm.o(i.PWM_SetDutyCycle))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = PWM_SetDutyCycle &rArr; GPIO_PinFunction
 </UL>
-<BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Init
+<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Init
 <LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinFunction
 </UL>
 <BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pwm_Test
 </UL>
 
-<P><STRONG><a name="[5a]"></a>PWM_Start</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, pwm.o(i.PWM_Start))
-<BR><BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pwm_Test
-<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Init
+<P><STRONG><a name="[5b]"></a>PWM_Start</STRONG> (Thumb, 164 bytes, Stack size 8 bytes, pwm.o(i.PWM_Start))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = PWM_Start
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pwm_Test
 </UL>
 
 <P><STRONG><a name="[77]"></a>RTC_GetDateTime</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, rtc.o(i.RTC_GetDateTime))
@@ -783,13 +783,13 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[74]"></a>pwm_Test</STRONG> (Thumb, 116 bytes, Stack size 0 bytes, main.o(i.pwm_Test))
+<P><STRONG><a name="[74]"></a>pwm_Test</STRONG> (Thumb, 120 bytes, Stack size 0 bytes, main.o(i.pwm_Test))
 <BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = pwm_Test &rArr; UART_Printf &rArr; UART_TxFloatNumber &rArr; UART_TxNumber
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Printf
-<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Start
-<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_SetDutyCycle
-<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Init
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Start
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_SetDutyCycle
+<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Init
 <LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DELAY_ms
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
