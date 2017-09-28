@@ -4,4 +4,5 @@
   (lib (name ee)(type KiCad)(uri "E:\\DESIGN CENTRAL\\Design Centrail System back up\\Custom XL\\ee")(options "")(descr logo))
   (lib (name logo)(type KiCad)(uri "H:\\PCB_Designes\\LPC1768 Stick\\lib_new\\logo.pretty")(options "")(descr ""))
   (lib (name EE)(type KiCad)(uri "H:\\PCB_Designes\\LPC1768 Stick1\\lib_new\\ExploreEmbedded.pretty-master")(options "")(descr ""))
+  (lib (name Switch)(type KiCad)(uri H:\Github\Exploreembedded_Kicad_Library-\ExploreEmbedded.pretty-master)(options "")(descr ""))
 )
