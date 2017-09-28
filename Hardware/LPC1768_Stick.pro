@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+update=9/28/2017 4:26:35 PM
+=======
+<<<<<<< HEAD
 update=Thu Sep 28 11:39:58 2017
 =======
 update=9/28/2017 11:54:58 AM
 >>>>>>> 84e5296d777127caab5559ad3d57326bb24a38e9
+>>>>>>> origin/master
 version=1
 last_client=kicad
 [general]
