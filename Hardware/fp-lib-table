@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (fp_lib_table
   (lib (name sw)(type KiCad)(uri "H:\\PCB_Designes\\LPC1768 Stick\\lib_new\\Housings_QFP.pretty-master")(options "")(descr switch))
   (lib (name xl)(type KiCad)(uri "E:\\DESIGN CENTRAL\\Design Centrail System back up\\Custom XL\\sw")(options "")(descr ee))
@@ -5,3 +6,13 @@
   (lib (name logo)(type KiCad)(uri "H:\\PCB_Designes\\LPC1768 Stick\\lib_new\\logo.pretty")(options "")(descr ""))
   (lib (name EE)(type KiCad)(uri "H:\\PCB_Designes\\LPC1768 Stick1\\lib_new\\ExploreEmbedded.pretty-master")(options "")(descr ""))
 )
+=======
+(fp_lib_table
+  (lib (name sw)(type KiCad)(uri "H:\\PCB_Designes\\LPC1768 Stick\\lib_new\\Housings_QFP.pretty-master")(options "")(descr switch))
+  (lib (name xl)(type KiCad)(uri "E:\\DESIGN CENTRAL\\Design Centrail System back up\\Custom XL\\sw")(options "")(descr ee))
+  (lib (name ee)(type KiCad)(uri "E:\\DESIGN CENTRAL\\Design Centrail System back up\\Custom XL\\ee")(options "")(descr logo))
+  (lib (name logo)(type KiCad)(uri "H:\\PCB_Designes\\LPC1768 Stick\\lib_new\\logo.pretty")(options "")(descr ""))
+  (lib (name EE)(type KiCad)(uri "H:\\PCB_Designes\\LPC1768 Stick1\\lib_new\\ExploreEmbedded.pretty-master")(options "")(descr ""))
+  (lib (name Switch)(type KiCad)(uri H:\Github\Exploreembedded_Kicad_Library-\ExploreEmbedded.pretty-master)(options "")(descr ""))
+)
+>>>>>>> 84e5296d777127caab5559ad3d57326bb24a38e9
