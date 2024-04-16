@@ -1,5 +1,35 @@
-/*
-  OLED_I2C.h - Arduino/chipKit library support for 128x64 pixel SSD1306 OLEDs
+/***************************************************************************************************
+                                   ExploreEmbedded Copyright Notice 
+****************************************************************************************************
+ * File:   oled_i2c.c
+ * Version: 16.0
+ * Author: ExploreEmbedded
+ * Website: http://www.exploreembedded.com/wiki
+ * Description: SSD1306 I2C OLED library to display strings, numbers, graphs and logos
+
+This code has been developed and tested on ExploreEmbedded boards.  
+We strongly believe that the library works on any of development boards for respective controllers. 
+Check this link http://www.exploreembedded.com/wiki for awesome tutorials on 8051,PIC,AVR,ARM,Robotics,RTOS,IOT.
+ExploreEmbedded invests substantial time and effort developing open source HW and SW tools, to support consider 
+buying the ExploreEmbedded boards.
+ 
+The ExploreEmbedded libraries and examples are licensed under the terms of the new-bsd license(two-clause bsd license).
+See also: http://www.opensource.org/licenses/bsd-license.php
+EXPLOREEMBEDDED DISCLAIMS ANY KIND OF HARDWARE FAILURE RESULTING OUT OF USAGE OF LIBRARIES, DIRECTLY OR
+INDIRECTLY. FILES MAY BE SUBJECT TO CHANGE WITHOUT PRIOR NOTICE. THE REVISION HISTORY CONTAINS THE INFORMATION 
+RELATED TO UPDATES.
+ 
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose
+and without fee is hereby granted, provided that this copyright notices appear in all copies 
+and that both those copyright notices and this permission notice appear in supporting documentation.
+**************************************************************************************************/
+
+
+/* The orginal Arduino libaray from rinkyDink is modified for low end controllers with small RAM memory.
+    ExploreEmbedded oled_i2c.c library does not have a RAM buffer and hence different fonts and graphics are not supported.
+	You can download the arduino library from this link http://www.rinkydinkelectronics.com/library.php?id=79 .
+		
+  OLED_I2C.cpp - Arduino/chipKit library support for 128x64 pixel SSD1306 OLEDs
   Copyright (C)2015 Rinky-Dink Electronics, Henning Karlsen. All right reserved
   
   This library has been made to make it easy to use 128x64 pixel OLED displays
